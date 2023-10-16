@@ -8,11 +8,14 @@ Element Type  | Annotation Applies to
 `PARAMETER`   | Method or constructor parameters
 
 # Chapter 9: The Java Platform Module System
-## The Module Concept
+## 9.1 The Module Concept
 2 advatanges of using the Java Platform Module System:
 
 1. strong encapsulation
 2. reliable configuration
+
+## 9.3 The Modular "Hello World" Program
+Practical tip: `module-info.java` is placed in the base directory, i.e. not inside any package. Try with IntelliJ to create a new `module-info.java`, and IntelliJ will place it automatically. In this way we will see that in a *Maven* project containing a single module there is only one `module-info.java`
 
 # Chapter 10: Security
 ## Class Loaders
