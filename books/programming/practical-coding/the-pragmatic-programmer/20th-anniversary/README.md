@@ -6,6 +6,22 @@ Book's quote
 
 > One hundred years from now, our engineering may seem as archaic as the techniques used by medieval cathedral builders seem to today’s civil engineers, while our craftsmanship will still be honored. 
 
+# Chapter 2: A Pragmatic Approach
+## Topic 12 Tracer Bullets
+*tracer bullet development* - immediate feedback
+
+### CODE THAT GLOWS IN THE DARK
+
+ * look for areas where you have doubts, and where you see the biggest risks
+
+### TRACER BULLETS DON'T ALWAYS HIT THEIR TARGET
+
+use trace code development in case you are not 100% certain of where you're going.
+
+> You shouldn't be surprised if your first couple of attempts miss: the user says "that's not what I meant," or data you need isn't available when you need it, or ... So change what youäve got to bring it nearer the target, and be thankful that you've used a lean development methodology; a small body of code has low inertia - it is easy and quick to change.
+
+### TRACER CODE VERSUS PROTOTYPING
+
 # Chapter 3: The Basic Tools
 ## Topic 17. Shell Games
 ### Tip 16: Use the Power of Command Shells
