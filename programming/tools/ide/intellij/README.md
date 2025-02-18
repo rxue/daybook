@@ -1,4 +1,10 @@
 # IntelliJ-Idea
+## [Keyboard Shortcut](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
+
+* option + enter
+
+Show [Context Actions](https://www.jetbrains.com/help/idea/intention-actions.html). Quick-fixes for highlighted errors and warnings, intention actions for improving and optimizing your code.
+
 ## [Directories used by the IDE to store settings, caches, plugins and logs](https://intellij-support.jetbrains.com/hc/en-us/articles/206544519-Directories-used-by-the-IDE-to-store-settings-caches-plugins-and-logs) `20231206`
 
 ## 20190903: How to set JVM arguments/options for the Whole Project 
