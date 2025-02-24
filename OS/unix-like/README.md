@@ -22,3 +22,5 @@ REASONING: based on ChatGPT's answer, `/usr/local/bin/` is included in the defau
 # 25 The Basic Program/System Interface
 ## [Envrionment Variables](https://www.gnu.org/software/libc/manual/html_node/Environment-Variables.html)
 > ...Programs executed from the shell inherit all fo the environment variables from the shell
+# Keyboard shortcut in *Terminal*
+ctrl + W - remove one word backword in the currently writing command line
