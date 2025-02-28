@@ -21,8 +21,8 @@ After `squash` the 2 later commits into this earliest commit, the new combined c
 
 More note about `squash`: 
 * the value of the optional `-i` could only accept *tilde* `~`
-* Only later commits can be marked `squash`, i.e. in the interactive editor opened followed by `git rebase -i HEAD~<#>` command, among the commit list in the reversed order of `git log`, the commit on the top cannot be marked `squash`, only those after can be marked `squash`
-* When seeing the list of commits after the command, note that you have to keep the first few commits unchanged, then `squash` the commits after the first few ones
+* after the command e.g. `git rebase -i HEAD~3`, the commits are listed in the opposite order against the `git log`, i.e. the top log is the oldest
+* ONLY the latest commits can be meld into the oldest commits, not the other way around, meaning the oldest commit can never to be `squash`
 
 ### Question: How to combine the last 3 commits into one
 #### Solution: `squash`: `git rebase -i HEAD~3`
