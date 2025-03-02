@@ -48,7 +48,15 @@ With Hibernate, You can make some accessor methods non-public or completely remo
 
 *dirty checking* : Hibernate automatically detect state changes in order to synchronize the updated state with database. Hibernate determine dirtiness by *comparing members by values*. But there is an exception **that *collection* members are compared by *identities*!** => alway return the same collection instance from *getter*
 
-### 3.2.4. Implementing associations
+#### 3.2.4. Implementing associations
+### 3.3. Domain and model metadata
+#### Applying Bean Validation rules
+
+**Key takeaways**
+
+* The SQL database has to be the final validator, ultimately guaranteeing the integrity of durable data
+* As long as *Hibernate Validator* dependency is used, the validation is triggered automatically
+* Validation annotation onto JPA entity is additional ORM metadata, some *Bean Validation* annotations can generated SQL constraints and, in practice the precedence of Bean Validation is over the attributes of annotation `@Column`. Example: https://gist.github.com/rxue/abe1b801f4a573b2978ef4ab0ed2be51
 
 ## Chapter 5. Mapping value types
 ### 5.1. Mapping basic properties
