@@ -59,6 +59,8 @@ With Hibernate, You can make some accessor methods non-public or completely remo
 * Validation annotation onto JPA entity is additional ORM metadata, some *Bean Validation* annotations can generated SQL constraints and, in practice the precedence of Bean Validation is over the attributes of annotation `@Column`. Example: https://gist.github.com/rxue/abe1b801f4a573b2978ef4ab0ed2be51
 * validation annotation can be added to any beans, not limited to JPA entities
 
+Worth to note that the `javax.validation.Validator` is not meant to be implemented by the client but by the Java EE container, meaning `javax.validation.Validator` is a container-managed *validator*. A  bean with fields annotated with *built-in containt* annotations can be validated manually by retrieving the `Validator` through `Validation.buildDefaultValidatorFactory().getValidator()`. Then the `Validator.validate(T bean, Class<?>... groups)` can validate the given bean on base of the built-in constraint annotations on it 
+
 ## Chapter 5. Mapping value types
 ### 5.1. Mapping basic properties
 #### 5.1.1. Overriding basic property defaults
