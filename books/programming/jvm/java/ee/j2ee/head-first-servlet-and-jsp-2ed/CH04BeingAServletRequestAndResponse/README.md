@@ -1,10 +1,17 @@
 # Chapter 4: Being a Servlet: request and response
+## But there's more to a servlet's life
+
+servlet object instance has only one single state - *initialized*
+
+p/97 (pdf p/122)
 
 ## The Three Big Lifecycle Moments
 
 > You should NOT override the `service()` method. Your job is to override the `doGet()` and/or `doPost()` methods and let the `service()` implementation from `HTTPServlet` worry about calling the right one.
 
-Book page 99
+p/99 (pdf p/124)
+
+Source code reference: https://github.com/javaee/servlet-spec/blob/master/src/main/java/javax/servlet/http/HttpServlet.java
 
 > ... the *Container* calls my servlet's `init()` method, but if I don't override `init()`, the one from `GenericServlet` runs. Then when a request comes in, the Container starts or allocates a thread and calls the `service()` method. from `HttpServlet` runs. The `HttpServlet` `service()` method then calls my overridden `doGet()``or `doPost()`. So each time my `doGet()` or `doPost()` runs, it's in a separate thread.
 
@@ -17,7 +24,7 @@ Book page 100
 
 > one servlet per request. The container doesn't care who makes the request - every incoming request means a new thread thread/stack
 
-Book page 101
+p/101 (pdf p/126)
 
 ### `ServletConfig` and `ServletContext`
 * one `ServletConfig` object per `Servlet` and `ServletConfig` is used to access the `ServletContext`
