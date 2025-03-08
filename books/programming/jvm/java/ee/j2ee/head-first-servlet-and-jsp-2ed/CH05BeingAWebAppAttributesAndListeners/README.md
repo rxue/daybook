@@ -98,7 +98,11 @@ Reference above is on page 183
 
 Reference on page 184 (answer found on page 208)
 
-## Request attributes are *thread-safe*
+## context scope and thread-safety [p/192 (pdf p/217)]
+![the image describes the problem of not being thread-safe](https://private-user-images.githubusercontent.com/3033388/420589160-b6493e73-ec2a-44f8-a505-03512a81c33a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE0MzQ0MDEsIm5iZiI6MTc0MTQzNDEwMSwicGF0aCI6Ii8zMDMzMzg4LzQyMDU4OTE2MC1iNjQ5M2U3My1lYzJhLTQ0ZjgtYTUwNS0wMzUxMmE4MWMzM2EucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMDhUMTE0MTQxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZDZmMDFhZmU0ZmE5NjEzM2I5YmMzNzg0MjM2NmU1NzM0ZjJmYjE4NGM3NGJhYmU0ZjAwOTM4YWUwZDVlMjc3OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.4NKe24esPgxeI-vVRXqpksCPRRwpgS8DEm4_G2t1hWE)
+
+
+## Request attributes are *thread-safe* [(p/204 (pdf p/229)]
 
 > only request variables and local variables are *thread-safe* !
 
