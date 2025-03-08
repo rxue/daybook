@@ -15,4 +15,14 @@ Answer: `docker system prune` to clean all stopped containers and dangling image
 
 Reference: https://stackoverflow.com/questions/30604846/docker-error-no-space-left-on-device
 
+# 20250202 ERROR when restart computer: `"Docker.app" will damage your computer. You should move it to the Bin`
+Solution:
 
+Remove the installed Docker desktop from `Applications` directory, then execute the following command in order
+
+`brew uninstall --cask docker --force`
+`brew uninstall --formula docker --force`
+
+After the commands above exeuted, reinstall the Docker desktop
+
+Resource: https://stackoverflow.com/questions/79344101/how-can-i-resolve-the-docker-app-will-damage-your-computer-warning-on-macos

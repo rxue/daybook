@@ -67,6 +67,10 @@ To ensure portability between CDI Lite and CDI Full, applications are encouraged
 
 Rule of thumb in my own word: whenever using CDI beans with relevant annotations, always add at least an empty `beans.xml`
 
+## Injection Points
+`@Inject`
+
+
 ## Events
 NOTE! `@Observes` is allowed to be annotated merely to the method parameter. Refer to the API documentation: https://docs.oracle.com/javaee/6/api/javax/enterprise/event/Observes.html
 
