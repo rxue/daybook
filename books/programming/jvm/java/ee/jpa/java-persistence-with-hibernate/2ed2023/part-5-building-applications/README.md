@@ -13,13 +13,17 @@ Things to consider:
 
 Example code reference: http://jpwh.org/examples/jpwh2/jpwh-2e-examples-20151103/apps/app-model/src/main/java/org/jpwh/dao/ItemDAOImpl.java
 
-**Thread-safety of an injected `EntityManager`**
+**Thread-safety of an injected `EntityManager`** (20250309)
 
-Based on [JPA 2.0 specification](https://jcp.org/aboutJava/communityprocess/final/jsr317/index.html) (NOTE! Before this version, JPA was part of EJB spec) > Chapter 7. Entity Managers and Persistene Contexts > 7.2. Obtaining an `EntityManager`
+Official **reference** : [JPA 2.0 specification](https://jcp.org/aboutJava/communityprocess/final/jsr317/index.html) (NOTE! Before this version, JPA was part of EJB spec) > Chapter 7. Entity Managers and Persistene Contexts > 7.2. Obtaining an `EntityManager`
 
 > An *entity manager* must not be shared among multiple concurrently executing threads, as the *entity manager* and *persistence context* are not required to be *threadsafe*. **Entity managers must only be accessed in a single-threaded manner**.
 
-`EntityManager` is not required to be *threadsafe*, so **NOTE that access to it must be in single-threaded manner!**
+=> `EntityManager` cannot be injected into inherently multi-threaded components such as
+
+ * EJB
+ * singleton beans
+ * servlets that don't implement `SingleThreadModel`
 
 So if the components, inside which `EntityManager` is used, are not *threadsafe*, it is developers' responsibility to maintain the thread-safety. A typical case is the direct use of `EntityManager` inside `Servlet` class. 
 
@@ -57,4 +61,6 @@ practical tips:
 DAO classes are *stateless* without considering the `EntityManager` member. But in a multi-threaded Java EE environment, **automatically injected** `EntityManager` is *effectively thread-safe*, because internally it is often implemented as a proxy that delegates to some thread- or transaction-bound on a DAO. On the other hand, if the `EntityManager` is passed through setter of DAO, the `EntityManager` cannot be shared around!
 
 When using EJB stateless session bean through injection, the persistence context injection is effectively thread-safe since that is managed by EJB container
+### 18.3 Building a stateful server
+#### 18.3.1. Editing an auction item
 
