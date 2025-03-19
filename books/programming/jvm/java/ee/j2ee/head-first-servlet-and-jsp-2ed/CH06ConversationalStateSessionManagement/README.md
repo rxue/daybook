@@ -78,11 +78,14 @@ example use case:
 
 Takeaway: *session cookies* vanish when the client's browser quits, but you can tell a cookie to persist on the client even after the browser shuts down
 
-## Using cookies with Servlet API (page 251/pdf 276)
+## Using cookies with Servlet API [p/251 (pdf p/276)]
+where to get Cooki: `Cookie[] HttpServletRequest.getCookies()`
+
 There is no `String getCookie(String name)` method
 
 new added `Cookie` needs to be added the the HTTP response through `HttpResponse.addCookie(cookie)`
 
+`maxAge` with `-1` makes cookie disappear when the browser exits
 
 ## Listener examples
 
