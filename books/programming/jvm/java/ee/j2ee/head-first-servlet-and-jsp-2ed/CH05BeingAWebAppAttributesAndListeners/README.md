@@ -23,7 +23,11 @@ In another word, you can't call `ServletConfig.getInitParameter()` inside a serv
 
 The only one `init` method of `HttpServlet` you need to *override* is the one with *no-arg*
 
-## Context init parameters to the rescue
+p/156 (pdf p/181)
+
+introductive question on `ServletContext` : we might use the email all over the application, how?
+
+## Context init parameters to the rescue [p/157 (pdf p182)]
 context parameters are **available to the entire webapp**, not just a single servlet
 
 ```
@@ -39,7 +43,7 @@ context parameters are **available to the entire webapp**, not just a single ser
 ```
 NOTE! `<sevlet>` and `<context-param>` elements are on the same level - `<context-param>` is not nested inside `<servlet>`
 
-Page 157 / pdf 187
+Java code: `GenericServlet.getServletContext()`
 
 ## Servlet and Context Init Parameters (page 160/pdf page 185)
 
