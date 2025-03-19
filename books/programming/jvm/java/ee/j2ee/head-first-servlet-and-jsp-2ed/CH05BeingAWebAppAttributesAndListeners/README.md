@@ -13,13 +13,13 @@ In the DD file:
 </servlet>
 ```
 
-Page 150
+P/150 (pdf p/175)
 
 > You can't use servlet init parameters until the servlet is initialized
 
-page 151
+p/151 (pdf p/176)
 
-In another word, you can't call `ServletConfig.getInitParameter` inside a servlet constructor
+In another word, you can't call `ServletConfig.getInitParameter()` inside a servlet *constructor*
 
 The only one `init` method of `HttpServlet` you need to *override* is the one with *no-arg*
 
