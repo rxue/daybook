@@ -86,6 +86,8 @@ new added `Cookie` needs to be added the the HTTP response through `HttpResponse
 
 `maxAge` with `-1` makes cookie disappear when the browser exits
 
+labels: `#1Z0-900`
+
 ## Listener examples
 
 Session counter in a *non-distributed system* as a typical use case of `HttpSessionListener`
