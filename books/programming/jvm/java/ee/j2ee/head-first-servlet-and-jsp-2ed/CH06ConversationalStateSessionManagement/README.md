@@ -4,17 +4,16 @@
 
 Reference page: 223/pdf 248
 
-## Session management
-### How can he track the client's answer?
+## It's supposed to be a conversion, (how sessions work)
+### How can he track the client's answer? [p/227 (pdf p/252)]
 3 options
 
 * stateful session EJB
-* database
+* database - but IO hit to disk => low performance
 * `HttpSession`
 
-label: `1Z0-900`
+labels: `#1Z0-900`
 
-Reference page: 227/pdf 252
 
 ## recognizing the client (page 230/pdf 255)
 Http protocol is *stateless*, meaning *Http protocol* use *stateless connection* => it is like each request is from a new client
