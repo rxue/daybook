@@ -6,6 +6,8 @@ Docker *registry* is remote and is composed of many *repositories*. One reposito
 Reference: https://www.youtube.com/watch?v=8hCQ-sxfBIA
 
 ## Docker repositories
+[What is registry](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry/)
+
 https://docs.docker.com/docker-hub/repos/create/#:~:text=Repositories%20let%20you%20share%20container,with%20the%20docker%20push%20command.
 
 
