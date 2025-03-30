@@ -18,6 +18,11 @@ Result: not work when trying to access the started docker container at least wit
 
 => eventually found https://support.atlassian.com/bitbucket-cloud/docs/databases-and-service-containers/ and works as expected. But still I am not able to  *port mapping*
 
+# [`step` *options*](https://support.atlassian.com/bitbucket-cloud/docs/step-options/)
+## `script` property (20250330)
+NOTE! If there are multiple scrpits defined in a `step`, be default if one script got error, i.e. exir with `1`, the subsequent scripts will be skipped. This is probably because the script execution has `set -e` by default
+
+
 # 20240116
 Question: Where is the image defined in the pipeline yml file from
 Answer: Docker Hub
