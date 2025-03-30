@@ -6,6 +6,8 @@ Each shell has its own built-in commands. But for instance, between Bash and Zsh
 
 For instance, the options of `history` commands in Bash are different from those in Zsh
 
+NOTE! `which` command can tell whether the quetioned command is built-in or not explicitly (20250330)
+
 # boolean operation
 Advanced use case of `&&` in combination with `&`
 `branch=test && (git branch -D $branch & git push origin --delete $branch)` # brackets can be used in this case
