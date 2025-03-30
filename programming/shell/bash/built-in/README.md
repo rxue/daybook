@@ -1,4 +1,7 @@
 # [`set`](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html)
+
+NOTE! `+` means to turn off the options
+
 ## `set -a`
 > Mark variables which are modified or created for export.
 
