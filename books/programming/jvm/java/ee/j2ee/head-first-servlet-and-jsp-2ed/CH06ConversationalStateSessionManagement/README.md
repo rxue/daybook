@@ -86,7 +86,7 @@ new added `Cookie` needs to be added the the HTTP response through `HttpResponse
 
 `maxAge` with `-1` makes cookie disappear when the browser exits
 
-labels: `#1Z0-900`
+labels: `1Z0-900`
 
 ## Listener examples
 
@@ -98,6 +98,11 @@ page 261
 Setting max age to `-1` makes the cookie disappear when the browser exits
 
 label: `1Z0-900`
+
+source code reference: 
+
+* https://github.com/jakartaee/servlet/blob/master/api/src/main/java/jakarta/servlet/http/Cookie.java#L226
+* https://github.com/jakartaee/servlet/blob/master/api/src/main/java/jakarta/servlet/http/Cookie.java#L211
 
 **OWN COMMENT**
 A dialectical reasoning on the design for negative numbers to be closing when browser shut down: In case of positive number, it is natural to consider it as the lifespan of the cookie in any case regardless of the browser state. In case of 0, it is also natural to consider the cookie have no lifespan, i.e. the cookie is deleted immediately. The left range is the negative number, consider it as infinite life span does not make sense, what is left is to consider it as would be deleted when the browser is closed
