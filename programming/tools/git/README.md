@@ -35,16 +35,6 @@ Reference:
 
 Reference: [Don't Mess With the Master Working with Branches in `git` and *github*](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
 
-### [`git reset`](https://www.youtube.com/watch?v=QEuqlpMOL9E&list=PLXO45tsB95cKysjmSNln65YoUt9lwEl7-&index=6) (中文)
-
-Question:
-
-* what is `git reset --hard origin/master`
-
-#### How to discard all the changes on the current branch
-1. `git fetch origin`
-2. `git reset --hard origin/master` or `git reset --hard HEAD` (revert to the last commit)
-
 `merge` a *conflict* does not generate an automatic *commit* message
 
 ### 20190624: 
@@ -221,4 +211,6 @@ Problem: some developer `git push origin --delete master` by mistake
 
 Question: how to avoid this from occuring
 
-
+## 20250409
+### Question: How to list all files in a given directory of another branch from the current
+`git ls-files --with-tree=<tree> ...`
