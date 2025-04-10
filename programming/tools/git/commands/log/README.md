@@ -1,6 +1,6 @@
-# `git log`
-## Log on other branch
-`git log [remote name]/[branch name]`
+# `git log` (20250410)
+## Log on other branch or *tag*
+`git log [(remote) branch name]/[tag name]`
 
 In case the branch is not remote, no need to give `[remote name]`
 

@@ -2,8 +2,9 @@
 ## List Branches
 ### List remote branches (20240909)
 `git branch -r`
-### List all the branches, i.e. both local and remote (20221218, 20230130, 20230525)
+### List all the branches, i.e. both local and remote (20221218, 20230130, 20230525, 20250410)
 `git branch -a`
+NOTE that this does not list the *tags*
 ### List branches along with its relationship with upstream branch
 `git branch -vv`
 
