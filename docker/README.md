@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=B8c1ui1hDTw&list=PLmOn9nNkQxJFX0YVLDw5EMUL-4cVzX
 ## Docker Network
 Reference: `docker network` commands https://www.youtube.com/watch?v=OL5EDRkhiq4&list=PLmOn9nNkQxJFtOGw9fsoLHgtCxcki7TtK&index=67
 
+### Add existing container to an existing network
+example: `docker network connect network_name existing_container_name`
+
 ## Docker [Repositories](https://docs.docker.com/docker-hub/repos/create/#:~:text=Repositories%20let%20you%20share%20container,through%20the%20docker%20push%20command.)
 > Repositories let you share container images with your team, customers, or the Docker community at large.
 
