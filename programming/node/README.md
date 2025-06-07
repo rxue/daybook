@@ -5,3 +5,6 @@ reference: https://stackoverflow.com/questions/25045946/where-should-my-npm-modu
 # Jest : unit test
 VIDEO reference: https://www.youtube.com/watch?v=GHVvrYD4VRE
 NOTE! `package.json` should be modified manually
+
+# `axios` vs `http` (20250607)
+Based on ChatGPT, the biggest advantage of `axios` is its support on JSON, i.e. the response JSON data can be received and matched to js object out of the box
