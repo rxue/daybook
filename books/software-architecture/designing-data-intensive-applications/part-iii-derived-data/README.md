@@ -10,7 +10,7 @@
 better for *consumers* to be notified when new events appear
 
 ### Databases and Streams
-#### Event Sourcing
+#### Event Sourcing (20250615)
 
 > storing all changing to the application state as a log of changed event
 
