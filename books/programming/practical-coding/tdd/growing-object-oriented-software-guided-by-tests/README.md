@@ -3,7 +3,7 @@
 ### Test-Driven Development in a Nutshell
 **Golden rule: Never write new functionality without a failing test**
 
-**Refactoring. Think Local, Act Local**
+**Refactoring. Think Local, Act Local** (20250628)
 OWN TAKEAWAY: refactor is not the same activity as *redesign* in that refactoring is *small-scale change* whereas *redesign* is large-scale structural change
  
 
