@@ -5,6 +5,10 @@
 **GSTRINGS**
 placeholders are allowed only inside **double-quoted** string
 
+#### 2.3.10 Groovy control structures
+
+> In conditionals, `null` is treated like `false`, and so are *empty strings*, *collections*, and *maps*.
+
 ## Chapter 3: Simple Groovy datatypes
 ### 3.3. Overriding operators
 ## Chapter 4: Collective Groovy datatypes
