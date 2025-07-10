@@ -4,6 +4,9 @@
 `if (x == Double.NaN) // is never used`
 
 use `Double.isNaN(x)` instead
+
+## 3.5. Operators
+### 3.5.9 Switch Expressions
  
 # Chapter 4: Objects and Classes
 ## 4.7. Records

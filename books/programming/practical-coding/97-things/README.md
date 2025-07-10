@@ -10,7 +10,7 @@
 > If I leave the warnings, someone else will have to wade through what is relevant and what is not
 # Know Your Next Commit
 One commit per task
-# The Road to Performance is littered with Dirty Code Bombs
+# The Road to Performance is littered with *Dirty Code Bombs*
 terms:
 * *execution hot spot*
 * *fan-out* - number of classes referenced either directly or indirectly from a class of interest

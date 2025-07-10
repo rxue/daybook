@@ -57,3 +57,8 @@ complete design of the whole before you start integration
 *Smoke test* 
 * no need to be exhaustive
 * should be capable of exposing major problems
+
+# Chapter 30: Programming Tools
+## 30.2 Source-Code Tools
+### Refactoring Source Code
+

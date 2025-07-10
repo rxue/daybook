@@ -38,6 +38,8 @@ Operations on `deque`
 # Chapter 3. Dictionaries and Sets
 ## What's New in This Chapter
 > The underlying implementation of `dict` and `set` still relies on *hash tables*
+## Modern `dict` Syntax
+### Unpacking Mappings
 
 # Chapter 4. Unicode Text Versus Bytes
 ## Normalizing Unicode for Reliable Comparisons

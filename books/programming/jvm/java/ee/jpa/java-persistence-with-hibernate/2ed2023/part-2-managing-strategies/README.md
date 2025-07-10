@@ -101,6 +101,9 @@ an *embedded component* has a dependent lifecycle (dependent on its owning entit
 #### 5.2.2. Making classes embeddable 
 `@Embeddable` class has no identifier property
 
+#### 5.2.3. Overriding embedded attributes
+`@Embedded` annotation is not necessary
+
 ### 5.3. Mapping Java and SQL types with converters
 *Java-to-SQL type conversion*
 #### 5.3.1. built-in types

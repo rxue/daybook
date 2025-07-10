@@ -8,4 +8,5 @@ My own words: *unreliability* of network is one of the limitations, and the *mes
 ## 4. Messaging Channel
 ### Dead Letter Channel
 
-
+## 5. Message Construction
+### Event Message

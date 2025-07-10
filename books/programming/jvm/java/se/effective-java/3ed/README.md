@@ -85,6 +85,10 @@ a way to associate different behavior with different constants: declare *abstrac
 > never derive a value associated with its ordinal; store it in an instance field instead
 
 # Chapter 7: Lambda and Streams
+## Item 43: Prefer method references to lambdas
+* `Map.merge` since Java SE 8
+* `Integer.sum` since Java SE 8 can be a typical use case of *method reference*
+
 ## Item 45: Use Streams Judiciously (202301)
 stream operations:
 

@@ -68,7 +68,10 @@ example use case: https://github.com/rxue/dictionary/issues/141
 # Chapter 7: Server Responses and Exception Handling
 ## Exception Handling
 ### `javax.ws.rs.WebApplicationException`
-
+### Exception Hierarchy
+Exception               | Status code   | Description
+------------------------|---------------|---------------
+`BadRequestException`   | 400           | Malformed message
 # Securing JAX-RS
 ## Authentication and Authorization in JAX-RS
 > To enforce authentication, you must specify a URL pattern you want to secure.

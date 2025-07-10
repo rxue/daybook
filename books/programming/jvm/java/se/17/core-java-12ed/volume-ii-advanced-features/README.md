@@ -36,12 +36,21 @@ executeTransaction("select * from explanation", preparedStatement -> {
 
 My own comment: This might be the early design flaw of the `Statement` interface
 
+## 5.9. Transactions
+### 5.9.3 Batch Updates
+* `Statement#addBatch(stringCommand)`
+* `Statement#executeBatch()`
+
 ## 5.10. Connection Management in Web and Enterprise Applications
 `DataSource` is related to
 
  * `jndi`
  * application server
  * *connection pool*
+
+# Chapter 7: Internationalization
+## 7.1 Locales
+### 
 
 # Chapter 8: Scripting, Compiling, and Annotation Processing
 ## 8.5 Standard Annotations
@@ -56,11 +65,29 @@ Element Type  | Annotation Applies to
 `PARAMETER`   | Method or constructor parameters
 
 # Chapter 9: The Java Platform Module System
-## The Module Concept
+## 9.1 The Module Concept
 2 advatanges of using the Java Platform Module System:
 
 1. strong encapsulation
 2. reliable configuration
+
+## 9.2 Naming Modules
+A module is a collection of packages
+
+*reverse domain name* convention example: 
+
+`org.slf4j` module has packages:
+* `org.slf4j`
+* `org.slf4j.spi`
+* `org.slf4j.event`
+* `org.slf4j.helpers`
+
+## 9.3 The Modular "Hello, World" Program
+"unnamed package"
+
+`package-info.java` is located in the based directory
+
+*module path* with `--module-path`
 
 # Chapter 10: Security
 ## Class Loaders
@@ -71,4 +98,4 @@ However,
 > There is no `ClassLoader` object corresponding to the bootstrap class loader.
 
 ![parent of PlatformClassLoader is null to client](https://user-images.githubusercontent.com/3033388/265276144-e4e11a05-cbee-4552-8d77-88317a3b18ab.png)
-
+50G
