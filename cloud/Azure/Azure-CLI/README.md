@@ -13,11 +13,14 @@ brew update && brew install azure-cli
 ### 1. Create a resource group
 `az group create --name dictionary-rest-api_group --location swedencentral --subscription <subscription_id>`
 But note that in order to be able to create the group, a user has to have a *Subscription*
+Here a resource group belongs to a subscription
 ### 2. create an App Service Plan
+```
 az appservice plan create \
   --name myDictionaryRESTAPIServicePlan \
   --resource-group dictionary-rest-api_group \
+  --subscription <subscription_id> \
   --sku F1 \
   --is-linux
+```
 
-Here a resource group belongs to a subscription
