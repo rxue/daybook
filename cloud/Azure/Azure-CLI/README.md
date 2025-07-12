@@ -9,6 +9,10 @@ brew update && brew install azure-cli
 `az acr repository list --name <RegistryName>`
 ### list all images of a repository
 `az acr repository show-tags --name registryname --repository reponame`
+
+## [Use Github Actions to connect to Azure](https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure)
+
+
 ## Add an App Service to the free tier
 ### 1. Create a resource group
 `az group create --name dictionary-rest-api_group --location swedencentral --subscription <subscription_id>`
