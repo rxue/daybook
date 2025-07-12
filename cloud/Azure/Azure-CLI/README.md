@@ -15,6 +15,18 @@ brew update && brew install azure-cli
 But note that in order to be able to create the group, a user has to have a *Subscription*
 Here a resource group belongs to a subscription
 
+## Create an App registration
+```
+az ad app create --display-name dictionary-rest-api
+```
+## ~Role assignment~
+```
+az role assignment create --role contributor --subscription $subscriptionId \
+--assignee-object-id  $assigneeObjectId \
+--scope /subscriptions/$subscriptionId/resourceGroups/$resourceGroupName/providers/Microsoft.Web/sites/$webappName \
+--assignee-principal-type ServicePrincipal
+```
+
 ### The Web App you intend to deploy to the Azure App Service by means of Github Action `azure/webapps-deploy@v2` must exist. Otherwise there will be error: `Error: Deployment Failed, Error: Resource xxx of type Microsoft.Web/Sites doesn't exist.`
 #### So need to start the App Service before deployment with Github Action `azure/webapps-deploy`
 ##### 1. create an App Service Plan for the app
