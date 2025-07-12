@@ -23,4 +23,9 @@ az appservice plan create \
   --sku F1 \
   --is-linux
 ```
+note that the `F1` means the free tier
 
+### The Web App you intend to deploy to the Azure App Service by means of Github Action `azure/webapps-deploy@v2` must exist. Otherwise there will be error: `Error: Deployment Failed, Error: Resource xxx of type Microsoft.Web/Sites doesn't exist.`
+
+
+## 20250711 When updating something in Azure portal, the queried result in Azure CLI might not be synchronized immediately. In order to make Azure CLI get the synchronized result, `az logout` and then `az login` again 
