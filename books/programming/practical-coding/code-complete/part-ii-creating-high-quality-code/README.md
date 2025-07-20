@@ -45,6 +45,11 @@ practical tip:
 # Chapter 9: The Pseudocode Programming Process
 ## 9.3 Constructing Routines by PPP
 ### Check the Code
+**Compile the routine**
+[lint](https://tldp.org/LDP/LG/issue51/pramode.html)
+
+OWN COMMENT: lint has become a term, which means in general what the original Lint in C programming does. For instance, in Python, *code linter* means the type checking, etc.
+
 **Test the code**
 
 
