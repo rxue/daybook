@@ -2,3 +2,5 @@
 ## Types Usable in Annotations
 ### Generic Collections
 > Most Python collections are heterogeneous. For example, you can put any mixtures of different types in a `list`
+## parameterized Generics and `TypeVar`
+### Restricted `TypeVar`
