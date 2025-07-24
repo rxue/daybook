@@ -1,3 +1,7 @@
+# Chapter 1. The Python Data Model
+## How Special Method are Used
+*built-in types* : `list`, `str`, `bytearray` etc. *built-in* stuff does not need to be imported with the `import` keyword
+
 # Chapter 2. An Array of Sequences
 ## List Comprehensions and Generator Expressionsions
 ### List Comprehensions and Readability
