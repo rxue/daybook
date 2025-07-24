@@ -4,3 +4,7 @@
 > Most Python collections are heterogeneous. For example, you can put any mixtures of different types in a `list`
 ## parameterized Generics and `TypeVar`
 ### Restricted `TypeVar`
+### Bounded `TypeVar`
+### The `AnyStr` predefined type variable
+## Static protocals
+
