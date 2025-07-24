@@ -6,5 +6,5 @@
 ### Restricted `TypeVar`
 ### Bounded `TypeVar`
 ### The `AnyStr` predefined type variable
-## Static protocals
+## [Static protocols](https://peps.python.org/pep-0544/)
 
