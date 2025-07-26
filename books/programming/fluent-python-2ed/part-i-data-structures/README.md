@@ -4,9 +4,14 @@
 
 # Chapter 2. An Array of Sequences
 ## List Comprehensions and Generator Expressionsions
-### List Comprehensions and Readability
+**terms**
+* *listcomps* is short for *list comprehension*
+* *genexps* : generator expressions
 
-*listcomps* is more readable, i.e. *comprehensive*
+### List Comprehensions and Readability
+**tips**
+* keep *listcomp* short
+* practical: variable is allowed to be defined only after the `for`
 
 > the goal is always to build a new list
 
