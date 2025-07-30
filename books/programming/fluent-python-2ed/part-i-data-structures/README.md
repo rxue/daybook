@@ -49,6 +49,10 @@ Operations on `deque`
 > The underlying implementation of `dict` and `set` still relies on *hash tables*
 ## Modern `dict` Syntax
 ### Unpacking Mappings
+## Standard API of Mapping Types
+### Overview of Common Mapping Methods
+`d.items()` - used to loop dictionary items
+corresponds to `map.entries()`
 
 # Chapter 4. Unicode Text Versus Bytes
 ## Normalizing Unicode for Reliable Comparisons
