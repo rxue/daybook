@@ -22,6 +22,10 @@ use trace code development in case you are not 100% certain of where you're goin
 
 ### TRACER CODE VERSUS PROTOTYPING
 
+## Topic 14 Domain Languages
+### Tip 22 Program Close to the Problem Domain
+#### Trade-offs Between Internal and External Languages
+
 # Chapter 3: The Basic Tools
 ## Topic 17. Shell Games
 ### Tip 16: Use the Power of Command Shells
