@@ -51,9 +51,13 @@ Operations on `deque`
 ### Unpacking Mappings
 ## Standard API of Mapping Types
 ### Overview of Common Mapping Methods
-`d.get(k, [default])` - Get item with key `k`, return `default` or `None` if missing
-`d.__getitem__(k)` - `d[k]` - get item with key `k` (NOTE! this is assuming the given key exists in the dictionary, so if the key does not exist error will be thrown)
-`d.items()` - used to loop dictionary items
+* `d.get(k, [default])` - Get item with key `k`, return `default` or `None` if missing
+OWN TAKE: Based on the timeline, `Map#get(Object key, V defaultValue)` since Java SE 8 was probably kinda following the idea of this method in Python
+
+* `d.__getitem__(k)` - `d[k]` - get item with key `k` (NOTE! this is assuming the given key exists in the dictionary, so if the key does not exist error will be thrown)
+
+
+* `d.items()` - used to loop dictionary items
 corresponds to `map.entries()`
 
 # Chapter 4. Unicode Text Versus Bytes

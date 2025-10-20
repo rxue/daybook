@@ -32,7 +32,7 @@ use trace code development in case you are not 100% certain of where you're goin
 #### A SHELL OF YOUR OWN
 * Setting color themes
 * Aliases and Shell functions
-* *Command completion*
+* *Command completion* : type the first few characters, hit **tab**, and it'll fill in what it can. Furthermore, the command completion can be *context-specific* 
 
 **COMMENT**
 Practical application of *alias*:
