@@ -1,10 +1,9 @@
-# [Command-line-mode - cmdline](https://vimdoc.sourceforge.net/htmldoc/cmdline.html)
-
-## shift cursor (20250224)
-### shift current line one line up
+# shift cursor (20250224, 20251022)
+## shift current line one line up
 `:move -2` or use `m`, i.e. probably alias of `move` 
-### shift current line one line down
+## shift current line one line down
 `:move +1`
+# [Command-line-mode - cmdline](https://vimdoc.sourceforge.net/htmldoc/cmdline.html)
 ## search
 ### case-insensitive search
 `/<word>\c` - word followed by `\c`
