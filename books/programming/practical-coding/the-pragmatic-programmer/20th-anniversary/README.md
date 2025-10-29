@@ -28,7 +28,7 @@ use trace code development in case you are not 100% certain of where you're goin
 
 # Chapter 3: The Basic Tools
 ## Topic 17. Shell Games
-### Tip 16: Use the Power of Command Shells
+**Tip 16: Use the Power of Command Shells**
 #### A SHELL OF YOUR OWN
 * Setting color themes
 * Aliases and Shell functions
@@ -43,10 +43,17 @@ Practical application of *Command completion*:
 * `git` can be configured to support command completion with *tab* in terminal
 * *postfix completion* in IntelliJ
 
-Chapter 7: While You Are Coding
+## Topic 20. Debugging
+### DEBUGGING STRATEGIES
+#### Reproducing Bugs
+**Tip 31: Failing Test Before Fixing Code*
+
+### CODE IN A STRANGE LAND
+**Tip 32: Read the Damn Error Message**
+### THE BINARY CHOP
+aka. *binary search*
+#### Logging and/or Tracing
+
+# Chapter 7: While You Are Coding
 *pattern language*
-
-
-
-
 
