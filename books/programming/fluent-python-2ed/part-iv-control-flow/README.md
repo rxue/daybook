@@ -13,3 +13,9 @@ if not x:
 ```
 
 The code puzzler above will output `TRUE to come here` !!!
+
+# Chapter 21: Asynchronous Programming
+## Writing asyncio Servers
+### A FastAPI Web Service
+* FastAPI is an SPA (Single Page Application)
+* automatically publishes interactive *OpenAPI* - a.k.a. *Swagger*
