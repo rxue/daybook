@@ -14,6 +14,10 @@
 *characterization test* is the *approval test* , which was discussed in this video tutorial: https://www.youtube.com/watch?v=p-oWHEfXEVs&list=PLizL--84rE7Q8yz_u8CHQ9b7Dg_EiN5Em
 
 # Chapter 16: I Don't Understand the Code Well Enough to Change It
+## Notes/Sketching
+e.g. informal UML
+
+
 ## *Scratch Refactoring*
 
   
