@@ -5,6 +5,10 @@ Book's quote
 > We who cut merestones must always be envisioning cathedrals
 
 > One hundred years from now, our engineering may seem as archaic as the techniques used by medieval cathedral builders seem to today’s civil engineers, while our craftsmanship will still be honored. 
+# Chapter 1: A Pragmatic Philosophy
+## Topic 3 Software Entropy
+
+*entropy* : a term from physics that refers to the amount of "disorder" in a system
 
 # Chapter 2: A Pragmatic Approach
 ## Topic 10 Orthogonality
