@@ -7,6 +7,11 @@ Book's quote
 > One hundred years from now, our engineering may seem as archaic as the techniques used by medieval cathedral builders seem to today’s civil engineers, while our craftsmanship will still be honored. 
 
 # Chapter 2: A Pragmatic Approach
+## Topic 10 Orthogonality
+### Coding
+> Unless you constantly monitor not just what you are doing but also the **larger context of the application**, you might unintentionally duplicate functionality in some other module, or express existing knowledge twice
+
+
 ## Topic 12 Tracer Bullets
 *tracer bullet development* - immediate feedback
 
