@@ -6,9 +6,15 @@ Book's quote
 
 > One hundred years from now, our engineering may seem as archaic as the techniques used by medieval cathedral builders seem to today’s civil engineers, while our craftsmanship will still be honored. 
 # Chapter 1: A Pragmatic Philosophy
+What distinguishes Programtic Programmers? They think beyong the immediate problem, placing it in its larger context and seeking out the bigger picture.
 ## Topic 3 Software Entropy
 
 *entropy* : a term from physics that refers to the amount of "disorder" in a system
+## Topic 4 Stone Soup and Boiled Frogs
+### The Villagers' Side
+**Remember the Big Picture**
+
+Don't be like the fabled frog. Keep an eye on the big picture. Constantly review what's happening around you, not just what you personally are doing.
 
 # Chapter 2: A Pragmatic Approach
 ## Topic 10 Orthogonality
