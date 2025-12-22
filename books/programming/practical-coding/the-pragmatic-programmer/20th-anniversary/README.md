@@ -10,11 +10,24 @@ What distinguishes Programtic Programmers? They think beyong the immediate probl
 ## Topic 3 Software Entropy
 
 *entropy* : a term from physics that refers to the amount of "disorder" in a system
-## Topic 4 Stone Soup and Boiled Frogs
+## Topic 4. Stone Soup and Boiled Frogs
 ### The Villagers' Side
 **Remember the Big Picture**
 
 Don't be like the fabled frog. Keep an eye on the big picture. Constantly review what's happening around you, not just what you personally are doing.
+## Topic 5. Good-Enough Software
+**Tip 8: Make Quality a Requirements Issue**
+many users would rather use software with some rough edges today than wait a year for the shiny, bells-and-whistles version
+
+> If you give you users something to play with early, their feedback will often lead you to a better eventual solution
+### KNOW WHEN TO STOP
+
+> Don't spoil a perfectly good program by overembellishment and overrefinement.
+## Topic 8. Your Knowledge Portfolio
+### CRITICAL THINKING
+**Tip 10: Critically Analyze What Your Read and Hear**
+*What's the context*
+> Everything occurs in its own context, which is why "one size fits all" solutions often don't.
 
 # Chapter 2: A Pragmatic Approach
 ## Topic 10 Orthogonality
