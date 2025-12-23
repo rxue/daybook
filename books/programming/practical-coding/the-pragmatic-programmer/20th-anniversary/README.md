@@ -30,10 +30,11 @@ many users would rather use software with some rough edges today than wait a yea
 > Everything occurs in its own context, which is why "one size fits all" solutions often don't.
 
 # Chapter 2: A Pragmatic Approach
+## Topic 8. The Essence of Good Design
 ## Topic 10 Orthogonality
 ### Coding
 > Unless you constantly monitor not just what you are doing but also the **larger context of the application**, you might unintentionally duplicate functionality in some other module, or express existing knowledge twice
-
+## Topic 11. Reversibility
 
 ## Topic 12 Tracer Bullets
 *tracer bullet development* - immediate feedback
@@ -81,7 +82,9 @@ Practical application of *Command completion*:
 ### THE BINARY CHOP
 aka. *binary search*
 #### Logging and/or Tracing
+# Chapter 5. Bend, or Break
+Topic 30. Transforming Programming
 
-# Chapter 7: While You Are Coding
+# Chapter 7. While You Are Coding
 *pattern language*
 
