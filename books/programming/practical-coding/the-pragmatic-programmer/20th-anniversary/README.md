@@ -23,7 +23,7 @@ many users would rather use software with some rough edges today than wait a yea
 ### KNOW WHEN TO STOP
 
 > Don't spoil a perfectly good program by overembellishment and overrefinement.
-## Topic 8. Your Knowledge Portfolio
+## Topic 6. Your Knowledge Portfolio
 ### CRITICAL THINKING
 **Tip 10: Critically Analyze What Your Read and Hear**
 *What's the context*
@@ -31,6 +31,7 @@ many users would rather use software with some rough edges today than wait a yea
 
 # Chapter 2: A Pragmatic Approach
 ## Topic 8. The Essence of Good Design
+*ETC* - easy to change
 ## Topic 10 Orthogonality
 ### Coding
 > Unless you constantly monitor not just what you are doing but also the **larger context of the application**, you might unintentionally duplicate functionality in some other module, or express existing knowledge twice
