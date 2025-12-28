@@ -88,6 +88,11 @@ aka. *binary search*
 [*REPL*](https://wiki.c2.com/?ReadEvalPrintLoop)
 > The more you have to predict what the future will look like, the more risk you incur that you'll be wrong. Instead of wasting effort designing your code for an uncertain future, you can always fall back on designing your code to be replaceable. Make it easy to throw out your code and replace it with something better suited.
 
+# Chapter 4. Pragmatic Paranoia
+## Topic 24. Dead Programs Tell No Lies
+> It's easy to fall into the "it can't happen" mentality.
+### Catch and Release is for Fish
+
 # Chapter 5. Bend, or Break
 ## Topic 28. Decoupling
 ### TRAIN WRECK
