@@ -91,6 +91,9 @@ aka. *binary search*
 # Chapter 4. Pragmatic Paranoia
 ## Topic 24. Dead Programs Tell No Lies
 > It's easy to fall into the "it can't happen" mentality.
+
+> Pragmatic Programmers tell themselves that if there is an error, something very, very bad has happened.
+
 ### Catch and Release is for Fish
 
 # Chapter 5. Bend, or Break
