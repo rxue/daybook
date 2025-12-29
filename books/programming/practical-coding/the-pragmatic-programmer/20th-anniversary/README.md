@@ -56,9 +56,9 @@ use trace code development in case you are not 100% certain of where you're goin
 ### Tip 22 Program Close to the Problem Domain
 #### Trade-offs Between Internal and External Languages
 
-# Chapter 3: The Basic Tools
+# Chapter 3. The Basic Tools
 ## Topic 17. Shell Games
-**Tip 16: Use the Power of Command Shells**
+**Tip 26: Use the Power of Command Shells**
 #### A SHELL OF YOUR OWN
 * Setting color themes
 * Aliases and Shell functions
@@ -87,5 +87,21 @@ aka. *binary search*
 Topic 30. Transforming Programming
 
 # Chapter 7. While You Are Coding
+## Topic 42. Property-Based Testing
+### CONTRACTS, INVARIANTS, AND PROPERTIES
+**Use Property-Based Tests to Validate Your Assumptions**
+### TEST DATA GENERATION
+The `@given` is probably from the [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) library in Python
 *pattern language*
+### FINDING BAD ASSUMPTIONS
+suggestion:
+> when a property-based test fails, find out what parameters it was passing to the test function, and then use those values to create a separate, regular, unit test.
+
+
+# Chapter 9. Pragmatic Projects
+## Topic 49. Pragmatic Teams
+
+## Topic 51. Pragmatic Starter Kit
+### RUTHLESS AND CONTINUOUS TESTING
+#### Calidation and Verification
 
