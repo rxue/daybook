@@ -83,6 +83,10 @@ Practical application of *Command completion*:
 ### THE BINARY CHOP
 aka. *binary search*
 #### Logging and/or Tracing
+# Chapter 4. Pragmatic Paranoia
+## Topic 27. Don't Outrun Your Headlights
+[*REPL*](https://wiki.c2.com/?ReadEvalPrintLoop)
+
 # Chapter 5. Bend, or Break
 Topic 30. Transforming Programming
 
