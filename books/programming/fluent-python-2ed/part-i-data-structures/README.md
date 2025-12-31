@@ -70,6 +70,8 @@ use of `''.join`
 `@dataclasses.dataclass` since Python 3.7
 
 ## Type Hints 101
+### No Runtime Effect
+third-party type checker: e.g. `mypy`
 ### Variable Annotation Syntax
 
 **Acceptable type hints**
