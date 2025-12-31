@@ -86,9 +86,29 @@ aka. *binary search*
 # Chapter 4. Pragmatic Paranoia
 ## Topic 27. Don't Outrun Your Headlights
 [*REPL*](https://wiki.c2.com/?ReadEvalPrintLoop)
+> The more you have to predict what the future will look like, the more risk you incur that you'll be wrong. Instead of wasting effort designing your code for an uncertain future, you can always fall back on designing your code to be replaceable. Make it easy to throw out your code and replace it with something better suited.
 
 # Chapter 5. Bend, or Break
-Topic 30. Transforming Programming
+## Topic 28. Decoupling
+### TRAIN WRECK
+**Tip 46: Don't Chain Method Calls**
+Rule of thumb: Try not to have more than one "." when accessing something
+
+Note that the examples given in the code are both poor ones
+### THE EVILS OF GLOBALIZATION
+## Topic 29. Juggling the Real World
+### EVENTS
+> Whatever the source, if we write applications that respond to events, and adjust what they do based on those events, those application will work better in the real world.
+
+strategies for event-driven development
+
+* finite state machines
+* observer pattern
+* publish/subscribe
+* reactive programming and streams
+
+
+## Topic 30. Transforming Programming
 
 # Chapter 7. While You Are Coding
 ## Topic 42. Property-Based Testing
