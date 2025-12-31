@@ -51,3 +51,9 @@ modifer   |Python           |Java
 In `max`, `min`, the given sequence cannot be empty
 
 ## [Command line and environment](https://docs.python.org/3/using/cmdline.html)
+
+## `unittest`
+### Mock - `@patch`
+20251231
+
+https://www.youtube.com/watch?v=-F6wVOlsEAM
