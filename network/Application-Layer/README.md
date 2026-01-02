@@ -26,7 +26,10 @@
 500   | Internal server error
 
 
-* 300 - 399 Redirection messages
+* Redirection messages (``300-399`)
+* [Client error responses (`400`-`499`)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#client_error_responses)
+`401` - Unauthorized
+
 
 #### Response Header
 ##### [`Set-Cookie`](https://www.rfc-editor.org/rfc/rfc6265#section-4.1)
