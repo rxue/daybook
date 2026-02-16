@@ -1,3 +1,5 @@
+# [`nvm`](https://github.com/nvm-sh/nvm) to control and use different version of Node
+
 # Question: I would like to know where is my global dependencies of nodejs installed:
 ## Answer: `npm root -g`
 reference: https://stackoverflow.com/questions/25045946/where-should-my-npm-modules-be-installed-on-mac-os-x
