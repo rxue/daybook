@@ -1,4 +1,7 @@
-# [`nvm`](https://github.com/nvm-sh/nvm) to control and use different version of Node
+# [`nvm`](https://github.com/nvm-sh/nvm) to control and use different version of Node (20260216)
+For instance, `nvm install 22` to install the version 22 of *node*. After the installation you will see the output of `node` is changed to 22
+
+
 
 # Question: I would like to know where is my global dependencies of nodejs installed:
 ## Answer: `npm root -g`
