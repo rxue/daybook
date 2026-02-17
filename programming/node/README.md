@@ -1,7 +1,8 @@
 # [`nvm`](https://github.com/nvm-sh/nvm) to control and use different version of Node (20260216)
 For instance, `nvm install 22` to install the version 22 of *node*. After the installation you will see the output of `node` is changed to 22
 
-
+## CLI Commands
+### [npx](https://docs.npmjs.com/cli/v8/commands/npx)
 
 # Question: I would like to know where is my global dependencies of nodejs installed:
 ## Answer: `npm root -g`
@@ -13,3 +14,5 @@ NOTE! `package.json` should be modified manually
 
 # `axios` vs `http` (20250607)
 Based on ChatGPT, the biggest advantage of `axios` is its support on JSON, i.e. the response JSON data can be received and matched to js object out of the box
+
+## 
