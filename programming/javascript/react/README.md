@@ -5,7 +5,7 @@ Initialize a React app in the current directory, i.e. the name of the current di
 
 ## Develop React application in VS Code
 There are the following extensions needed:
-* *eslint* for syntax checking
+* *ESLint* for syntax checking
 
 ## How to make an React app work in *Github Pages* (20260217)
 Tutorial: https://www.youtube.com/watch?v=yfL2HiK2wqc
