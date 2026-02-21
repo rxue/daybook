@@ -1,20 +1,39 @@
 import { useState } from 'react'
 
-function ChatInput() {
+function ChatInput({chatMessages, setChatMessages}) {
   const [inputText, setInputText] = useState('');
 
   function saveInputText(event) {
     setInputText(event.target.value);
   }
   function sendMessage() {
-    console.log(inputText);
+    const newChatMessages = [
+      ...chatMessages,
+      {
+        message: inputText,
+        sender: "user",
+        id: crypto.randomUUID()
+      }
+    ];
+
+    const response = Chatbot.getResponse(inputText);
+    setChatMessages([
+      ...newChatMessages,
+      {
+        message: response,
+        sender: "robot",
+        id: crypto.randomUUID()
+      }
+    ]);
+    setInputText('');//Controlled input
   }
   return (
     <>
       <input 
         placeholder="write message here to send to chatbox" 
         size="30"
-        onChange={saveInputText} 
+        onChange={saveInputText}
+        value={inputText}
       />
       <button onClick={sendMessage}>Click to send</button>
     </>
@@ -29,7 +48,7 @@ function ChatMessage({ message, sender }) {
   //const { message, sender } = props; // Destructuring shortcut
   return (
     <div>
-      {sender === 'chatbot' && (
+      {sender === 'robot' && (
         <img src="robot.png" width="40" height="40" style={{ verticalAlign: 'bottom' }} />
       )}
       {message}
@@ -41,26 +60,11 @@ function ChatMessage({ message, sender }) {
 }
 
 
-function ChatMessages() {
+function ChatMessages({chatMessages}) {
   //Array destructuring, where order matters
-  const [chatMessages, setChatMessages] = useState([
-    {message: "hello chatbot", sender: "user", id: "id1"},
-    {message: "hello! How can i help you :)", sender: "chatbot", id: "id2"}
-  ]);
-  function sendMessage() {
-    setChatMessages([
-      ...chatMessages,
-      {
-        message:"new message",
-        sender: "user",
-        id: crypto.randomUUID()
-      }
-    ]);
-    console.log(chatMessages);
-  }
+
   return (
     <>
-      <button onClick={sendMessage}>Send message</button>
       {chatMessages.map((chatMessage) =>
         <ChatMessage message={chatMessage.message} sender={chatMessage.sender} key={chatMessage.id} />
       )}
@@ -68,11 +72,14 @@ function ChatMessages() {
   );
 }
 function App() {
-
+  const [chatMessages, setChatMessages] = useState([
+    {message: "hello chatbot", sender: "user", id: "id1"},
+    {message: "hello! How can i help you :)", sender: "robot", id: "id2"}
+  ]);
   return (
     <div>
-      <ChatInput />
-      <ChatMessages />
+      <ChatInput chatMessages={chatMessages} setChatMessages={setChatMessages}/>
+      <ChatMessages chatMessages={chatMessages}/>
     </div>
   );
 }
