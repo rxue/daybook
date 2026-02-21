@@ -1,11 +1,22 @@
+import { useState } from 'react'
+
 function ChatInput() {
+  const [inputText, setInputText] = useState('');
+
+  function saveInputText(event) {
+    setInputText(event.target.value);
+  }
+  function sendMessage() {
+    console.log(inputText);
+  }
   return (
     <>
       <input 
         placeholder="write message here to send to chatbox" 
-        size="30" 
+        size="30"
+        onChange={saveInputText} 
       />
-      <button>Click to send</button>
+      <button onClick={sendMessage}>Click to send</button>
     </>
   );
 }
@@ -29,18 +40,39 @@ function ChatMessage({ message, sender }) {
   );
 }
 
+
+function ChatMessages() {
+  //Array destructuring, where order matters
+  const [chatMessages, setChatMessages] = useState([
+    {message: "hello chatbot", sender: "user", id: "id1"},
+    {message: "hello! How can i help you :)", sender: "chatbot", id: "id2"}
+  ]);
+  function sendMessage() {
+    setChatMessages([
+      ...chatMessages,
+      {
+        message:"new message",
+        sender: "user",
+        id: crypto.randomUUID()
+      }
+    ]);
+    console.log(chatMessages);
+  }
+  return (
+    <>
+      <button onClick={sendMessage}>Send message</button>
+      {chatMessages.map((chatMessage) =>
+        <ChatMessage message={chatMessage.message} sender={chatMessage.sender} key={chatMessage.id} />
+      )}
+    </>
+  );
+}
 function App() {
+
   return (
     <div>
       <ChatInput />
-      <ChatMessage 
-        message="hello chatbot" 
-        sender="user" 
-      />
-      <ChatMessage 
-        message="hello! How can I help you :)" 
-        sender="chatbot" 
-      />
+      <ChatMessages />
     </div>
   );
 }
