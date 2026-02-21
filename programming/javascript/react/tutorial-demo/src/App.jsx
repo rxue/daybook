@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import './App.css'
 
 function ChatInput({chatMessages, setChatMessages}) {
   const [inputText, setInputText] = useState('');
@@ -28,15 +29,20 @@ function ChatInput({chatMessages, setChatMessages}) {
     setInputText('');//Controlled input
   }
   return (
-    <>
+    // 1. step to make Flexbox: create a container
+    <div className="chat-input-container">
       <input 
-        placeholder="write message here to send to chatbox" 
+        placeholder="write message here to send to chatbox"
         size="30"
         onChange={saveInputText}
         value={inputText}
+        className="chat-input"
       />
-      <button onClick={sendMessage}>Click to send</button>
-    </>
+      <button 
+        onClick={sendMessage}
+        className="send-button"
+      >Click to send</button>
+    </div>
   );
 }
 //PascalCase = each word starts with a capital letter
@@ -47,11 +53,13 @@ function ChatInput({chatMessages, setChatMessages}) {
 function ChatMessage({ message, sender }) {
   //const { message, sender } = props; // Destructuring shortcut
   return (
-    <div>
+    <div className={sender === 'user' ? "chat-message-user" : "chat-message-robot"}>
       {sender === 'robot' && (
         <img src="robot.png" width="40" height="40" style={{ verticalAlign: 'bottom' }} />
       )}
-      {message}
+      <div className="chat-message-text">
+        {message}
+      </div>
       {sender === 'user' && (
         <img src="user.png" width="40" height="40" style={{ verticalAlign: 'bottom' }} />
       )}
@@ -62,13 +70,21 @@ function ChatMessage({ message, sender }) {
 
 function ChatMessages({chatMessages}) {
   //Array destructuring, where order matters
-
+  const chatMessagesRef = useRef(null);
+  useEffect(() => {
+    const containerElement = chatMessagesRef.current;
+    if (containerElement) {
+      containerElement.scrollTop = containerElement.scrollHeight;
+    }
+  }, [chatMessages]);//Dependency array
   return (
-    <>
+    <div className="chat-messages-container"
+      ref={chatMessagesRef}  
+    >
       {chatMessages.map((chatMessage) =>
         <ChatMessage message={chatMessage.message} sender={chatMessage.sender} key={chatMessage.id} />
       )}
-    </>
+    </div>
   );
 }
 function App() {
@@ -77,10 +93,10 @@ function App() {
     {message: "hello! How can i help you :)", sender: "robot", id: "id2"}
   ]);
   return (
-    <div>
-      <ChatInput chatMessages={chatMessages} setChatMessages={setChatMessages}/>
+    <>
       <ChatMessages chatMessages={chatMessages}/>
-    </div>
+      <ChatInput chatMessages={chatMessages} setChatMessages={setChatMessages}/>
+    </>
   );
 }
 
