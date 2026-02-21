@@ -95,6 +95,9 @@ aka. *binary search*
 > Pragmatic Programmers tell themselves that if there is an error, something very, very bad has happened.
 
 ### Catch and Release is for Fish
+**Tip 38. Crash Early**
+### Crash, Don't Trash
+
 
 # Chapter 5. Bend, or Break
 ## Topic 28. Decoupling

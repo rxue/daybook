@@ -3,6 +3,18 @@ Initialize a React app in the current directory, i.e. the name of the current di
 
 `npm vite@latest create .` and then go step-by-step based on the hint
 
+## Tutorial: https://www.youtube.com/watch?v=TtPXvEcE11E
+### [Lesson 3: State, Event Handlers, Create the Chatbot Features](https://www.youtube.com/watch?v=TtPXvEcE11E&t=5812s)
+#### [How to Get the Text in a Textbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8033s&pp=0gcJCTAAlc8ueATH)
+React Best Practice: Do not use DOM manually but use React features to get the text from a textbox
+
+##### [`event.target`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8194s) gives us the element that we're typing in
+* `event.target.value`
+##### [Save the Text](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8264s&pp=0gcJCTAAlc8ueATH)
+use *State* to save the text. *State* = save data that changes over time
+
+Visualize the Components in App - *Component Tree*
+
 ## Develop React application in VS Code
 There are the following extensions needed:
 * *ESLint* for syntax checking
