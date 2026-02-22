@@ -23,6 +23,7 @@
 #### [`vite`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=15110s)
 * Vite is used to generate the project
 * Vite is also used help us build the website
+* Vite also creates a server that puts our website at a URL
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
