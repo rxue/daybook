@@ -16,7 +16,9 @@
 
 ### Project structure
 
-* [`package-lock.json`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=15037s)
+#### [`package-lock.json`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=15037s) 
+* saves all the version numbers of the packages that we installed
+* `npm` automatically updates `package-lock.json`
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
