@@ -5,9 +5,11 @@
 ## [Lesson 2: Components, Props, Start the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=2416s)
 
 ## [Lesson 4: CSS with React, Hooks, Finish Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s&pp=0gcJCTAAlc8ueATH)
-* auto scrolling by using *Hooks*, which insert React features into our component
+### auto scrolling by using *Hooks*, which insert React features into our component
 
-`React.useState()` is a hook
+* `React.useState()` is a hook
+#### [`useEffect()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12969s)
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
