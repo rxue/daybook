@@ -20,6 +20,10 @@
 * saves all the version numbers of the packages that we installed
 * `npm` automatically updates `package-lock.json`
 
+#### [`vite`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=15110s)
+* Vite is used to generate the project
+* Vite is also used help us build the website
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
