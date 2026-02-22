@@ -9,7 +9,7 @@
 
 * `React.useState()` is a hook
 #### [`useEffect()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12969s)
-
+#### [`useRef()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=13224s)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
