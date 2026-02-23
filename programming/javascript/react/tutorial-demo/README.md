@@ -25,6 +25,10 @@
 * Vite is also used help us build the website
 * Vite also creates a server that puts our website at a URL
 
+### Code Demo
+
+syntax `import { useState } from 'react'` load from `node_modules`
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
