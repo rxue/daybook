@@ -20,3 +20,10 @@
 * `fetch` is [*asynchronous code* - code that does not finish right away](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23250s)
 ### `fetch` returns a `Promise` - [`Promise` let us await for asynchronous code to finish](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23260s)
 * `Promise` has a `.then` method
+#### [`lambda` inside the `.then` handles the *Response*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23311s)
+* *asynchronous* `response.json()` return Json data in the response
+* `response.json` is also *asynchronous* and returns `Promise`
+* [asynchronous coding shortcut](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23478s)
+## [Data Fetching using `axios`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23566s)
+## [(Common) problem in the data fetching code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23721s&pp=0gcJCTAAlc8ueATH)
+
