@@ -12,3 +12,8 @@
 * [add `Routes` component to `App` component](https://www.youtube.com/watch?v=TtPXvEcE11E&t=20040s)
 `Routes` component tells *React* all the pages that are in our websites
 
+* Key takeaway: [When using `react-router`, use `<Link>` component instead of `<a>`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=22058s&pp=0gcJCTAAlc8ueATH) because the `<Link>` component goes to another page without reloading
+
+# [Lesson 7: Backend, Data Fetching, Async Await](https://www.youtube.com/watch?v=TtPXvEcE11E&t=22200s)
+## [Data Fetching](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23169s)
+
