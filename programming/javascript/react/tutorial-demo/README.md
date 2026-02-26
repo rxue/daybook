@@ -15,5 +15,6 @@
 * Key takeaway: [When using `react-router`, use `<Link>` component instead of `<a>`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=22058s&pp=0gcJCTAAlc8ueATH) because the `<Link>` component goes to another page without reloading
 
 # [Lesson 7: Backend, Data Fetching, Async Await](https://www.youtube.com/watch?v=TtPXvEcE11E&t=22200s)
-## [Data Fetching](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23169s)
-
+## [Data Fetching using `fetch`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23169s)
+* `fetch` is a built-in function provided by Javascript
+* `fetch` is [*asynchronous code* - code that does not finish right away](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23250s)
