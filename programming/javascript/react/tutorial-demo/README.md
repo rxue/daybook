@@ -30,4 +30,4 @@
 ### Solution: [Put Data Fetching Code to `useEffect()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23745s)
 * `useEffect()` controls when some code runs
 * the 2nd argument - [*Dependency Array*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23804s) - controls when `useEffect()` runs. `[]`(empty *dependency array*) only runs once
-## [How to use the fetched data inside the loop](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23851s)
+## [How to use the fetched data inside the loop](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23851s) - [save the data inside the `State`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23858s)
