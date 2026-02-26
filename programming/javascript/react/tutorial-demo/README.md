@@ -26,4 +26,5 @@
 * [asynchronous coding shortcut](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23478s)
 ## [Data Fetching using `axios`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23566s)
 ## [(Common) problem in the data fetching code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23721s&pp=0gcJCTAAlc8ueATH)
-
+### Problem: [Fetching data directly inside the component means whenever the homepage changes or rerenders, the data fetching routine is rerendered again](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23728s)
+### Solution: [Put Data Fetching Code to `useEffect()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23745s)
