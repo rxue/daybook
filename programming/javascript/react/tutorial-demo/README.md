@@ -1,3 +1,28 @@
+# [Lesson 4: CSS with React, Hooks, Finish the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s)
+## Add *auto scrolling* feature
+### [*Hook*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12916s)
+* *Hooks* insert *React* features into our component
+* [`useState()` automatically updates the HTML when the data changes](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12935s)
+* [`useEffect()` runs some code after the component is created or updated](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12969s&pp=0gcJCTAAlc8ueATH)
+* `useRef()`
+#### [Coding Demo](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12990s)
+**Tips**
+
+* put *hook* at the top of the *component*
+* *hook* should not be inside anything
+
+`useEffect(() => {}, [])` : React will run this function depending on the *Dependency Array*, i.e. the 2nd parameter
+
+* invoked after *component* is created when the 2nd parameter is `[]` (an empty array)
+* invoked every time this *component* is updated when the 2nd parameter is not empty and the data passing to the 2nd parameter changes
+
+
+##### [`useRef()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=13248s) : save the *HTML element* from the *component*
+
+* a *ref* is a container with special React features
+* the parameter is the intial value
+* e.g. `const chatMessagesRef = useRef(null);` saved the ref result into the *variable* `chatMessagesRef`
+
 # [Lesson 6: https://www.youtube.com/watch?v=TtPXvEcE11E&t=17969s](React Router, Start the Ecommerce Project)
 
 * We can only return one element from a component https://www.youtube.com/watch?v=TtPXvEcE11E&t=19118s§
