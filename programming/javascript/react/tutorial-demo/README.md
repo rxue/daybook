@@ -18,3 +18,4 @@
 ## [Data Fetching using `fetch`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23169s)
 * `fetch` is a built-in function provided by Javascript
 * `fetch` is [*asynchronous code* - code that does not finish right away](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23250s)
+* `fetch` returns a `Promise` - [`Promise` let us await for asynchronous code to finish](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23260s)
