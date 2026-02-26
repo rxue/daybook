@@ -28,3 +28,6 @@
 ## [(Common) problem in the data fetching code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23721s&pp=0gcJCTAAlc8ueATH)
 ### Problem: [Fetching data directly inside the component means whenever the homepage changes or rerenders, the data fetching routine is rerendered again](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23728s)
 ### Solution: [Put Data Fetching Code to `useEffect()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23745s)
+* `useEffect()` controls when some code runs
+* the 2nd argument - [*Dependency Array*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23804s) - controls when `useEffect()` runs. `[]`(empty *dependency array*) only runs once
+## [How to use the fetched data inside the loop](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23851s)
