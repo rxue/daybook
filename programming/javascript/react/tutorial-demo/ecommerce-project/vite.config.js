@@ -8,4 +8,10 @@ export default defineConfig({
     open: true,
     browser: 'chrome',
   },
+  server: {
+    proxy: {
+      '/api': 'http://localhost:3000',
+      '/images': 'http://localhost:3000',
+    },
+  },
 })
