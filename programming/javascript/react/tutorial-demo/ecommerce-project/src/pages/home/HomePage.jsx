@@ -5,9 +5,12 @@ import { Header } from '../../components/header'
 import { ProductGrid } from './ProductGrid'
 export function HomePage({ cart }) {
     const [products, setProducts] = useState([]);
-    useEffect(async () => {
-        const response = await axios.get('/api/products');
-        setProducts(response.data);
+    useEffect(() => {
+        async function getHomeData() {
+            const response = await axios.get('/api/products');
+            setProducts(response.data);
+        }
+        getHomeData();
     }, [])
     
     return (
