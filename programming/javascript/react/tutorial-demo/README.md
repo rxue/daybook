@@ -1,3 +1,5 @@
+# [Lesson 3: State, Event Handlers, Create the Chatbot Features](https://www.youtube.com/watch?v=TtPXvEcE11E&t=5812s)
+
 # [Lesson 4: CSS with React, Hooks, Finish the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s)
 ## Add *auto scrolling* feature
 ### [*Hook*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12916s)
@@ -56,3 +58,22 @@
 * `useEffect()` controls when some code runs
 * the 2nd argument - [*Dependency Array*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23804s) - controls when `useEffect()` runs. `[]`(empty *dependency array*) only runs once
 ## [How to use the fetched data inside the loop](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23851s) - [save the data inside the `State`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=23858s)
+`const [products, setProducts] = useState([]);`
+
+* The second valie `setProducts` is the *updater function*
+### [Demo on cart implementation](https://www.youtube.com/watch?v=TtPXvEcE11E&t=24004s)
+#### Implementing the *checkout* page
+##### [load the data only once due to SPA](https://www.youtube.com/watch?v=TtPXvEcE11E&t=24657s)
+For instance, the sending request to get cart and product data, these requests are needed to be sent only once when they are not updated
+
+Solution of making loading products and cart data only once: [Lifting the state (of the cart data) up](https://www.youtube.com/watch?v=TtPXvEcE11E&t=24669s)
+Lift the cart state one level up to the `App.jsx` *component*
+
+##### [Implementation of the delivery date](https://www.youtube.com/watch?v=TtPXvEcE11E&t=26138s)
+the `find()` method in `deliveryOptions.find()` is a standard built-in Javascript function from the Array
+# [Lesson 8: Data Mutation, Types of Requests](https://www.youtube.com/watch?v=TtPXvEcE11E&t=28859s)
+## Data Mutation: Update data in the backend
+### [How to save the cart data? save the cart data in the backend](https://www.youtube.com/watch?v=TtPXvEcE11E&t=28894s)
+Tips
+* function can be passed as component function's parameter through different components. This is the key to make the quantity in the cart symbol update to date dynamically
+
