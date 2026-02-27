@@ -1,4 +1,8 @@
 # [Lesson 3: State, Event Handlers, Create the Chatbot Features](https://www.youtube.com/watch?v=TtPXvEcE11E&t=5812s)
+## [Event Handler](https://www.youtube.com/watch?v=TtPXvEcE11E&t=6902s)
+### [`onClick`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=6961s) = an event, which will trigger the running of a function we click. This function is kinda the *event handler*
+Note that the value passed to `onClick` should be sth like `sendMessage` instead of `sendMessage()`, i.e. brackets are not allowed
+## [intro to state](https://www.youtube.com/watch?v=TtPXvEcE11E&t=7290s)
 
 # [Lesson 4: CSS with React, Hooks, Finish the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s)
 ## Add *auto scrolling* feature
