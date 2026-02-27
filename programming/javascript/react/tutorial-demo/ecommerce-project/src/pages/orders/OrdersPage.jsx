@@ -2,8 +2,8 @@ import axios from 'axios'
 import dayjs from 'dayjs'
 import { useEffect, useState, Fragment } from 'react'
 import './OrdersPage.css'
-import { Header } from '../components/header'
-import { formatMoney } from '../utils/money'
+import { Header } from '../../components/header'
+import { formatMoney } from '../../utils/money'
 
 export function OrdersPage({ cart }) {
   const [orders, setOrders] = useState([]);
