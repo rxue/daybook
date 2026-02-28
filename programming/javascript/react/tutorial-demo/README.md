@@ -3,6 +3,18 @@
 ### [`onClick`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=6961s) = an event, which will trigger the running of a function we click. This function is kinda the *event handler*
 Note that the value passed to `onClick` should be sth like `sendMessage` instead of `sendMessage()`, i.e. brackets are not allowed
 ## [intro to state](https://www.youtube.com/watch?v=TtPXvEcE11E&t=7290s)
+* state: data that is connected to the HTML
+* `useState()` convert the data into *state*
+* [*array destructuring*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=7862s) - the order of elements is the most important in array destructuring
+## [demo: get text in the text input field - `onChange()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8033s)
+* [*event*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8186s) passed to the *event handler* through method signature `onChange(event)` - event object contains details about the event
+* `event.target` gives the (html) element that we are typing in
+### [Make the send button interactive (by means of `onClick`)](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8412s)
+#### [problem: no access to `setChatMessages`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8559s)
+* solution: Lift the *state* up - shate the *state* between multiple components
+#### [improvement: clear the input text in the input field right after clicking the send button](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9019s)
+
+
 
 # [Lesson 4: CSS with React, Hooks, Finish the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s)
 ## Add *auto scrolling* feature

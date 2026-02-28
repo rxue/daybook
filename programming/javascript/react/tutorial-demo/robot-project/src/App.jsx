@@ -40,7 +40,7 @@ function ChatMessages({chatMessages}) {
     <div className="chat-messages-container"
       ref={chatMessagesRef}  
     >
-      {chatMessages.map((chatMessage) =>
+      {chatMessages.map(chatMessage =>
         <ChatMessage message={chatMessage.message} sender={chatMessage.sender} key={chatMessage.id} />
       )}
     </div>
