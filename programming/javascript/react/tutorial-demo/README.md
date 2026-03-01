@@ -129,3 +129,5 @@ Tips
 ### *TypeScript* with React
 * [removed: `propTypes`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38958s), [in favor of *TypeScript*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38985s)
 * [removed `defaultProps`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38996s)
+#### [How to set up *TypeScript* with React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=39018s)
+
