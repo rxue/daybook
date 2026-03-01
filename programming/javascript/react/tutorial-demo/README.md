@@ -13,8 +13,8 @@ Note that the value passed to `onClick` should be sth like `sendMessage` instead
 #### [problem: no access to `setChatMessages`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8559s)
 * solution: Lift the *state* up - shate the *state* between multiple components
 #### [improvement: clear the input text in the input field right after clicking the send button](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9019s)
-
-
+##### solution: *Controlled Inputs*
+in addition to invoke the *setter* at the end of the `onClick` event handler, need to pass the `inputText` to `value` *prop* of `<input>` element
 
 # [Lesson 4: CSS with React, Hooks, Finish the Chatbot Project](https://www.youtube.com/watch?v=TtPXvEcE11E&t=9763s)
 ## Add *auto scrolling* feature
@@ -92,4 +92,30 @@ the `find()` method in `deliveryOptions.find()` is a standard built-in Javascrip
 ### [How to save the cart data? save the cart data in the backend](https://www.youtube.com/watch?v=TtPXvEcE11E&t=28894s)
 Tips
 * function can be passed as component function's parameter through different components. This is the key to make the quantity in the cart symbol update to date dynamically
+### [make quantity selector work](https://www.youtube.com/watch?v=TtPXvEcE11E&t=29408s)
+* need to separate product into its own component so that the *state* of the quantity is as per each product
+
+### Create order
+#### After clicking "Place your order" to create an order, [redirect to the order page](https://www.youtube.com/watch?v=TtPXvEcE11E&t=31480s) to see the new order content
+##### solution: `useNavigate()` - let us navigate to another page in the app by
+*navigate* is not asynchronous
+
+# [Lesson 9: Automated Tests in React with *Vitest*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=31810s)
+`npm install vitest@3.12 --save-dev` to install the test lib where the `--save-dev` installs dependency only for development
+* [`npx vitest`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=32195s)
+* [group  tests using `describe`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=32380s)
+## [Integration test](https://www.youtube.com/watch?v=TtPXvEcE11E&t=28894s)
+### [render the component when testing the component](https://www.youtube.com/watch?v=TtPXvEcE11E&t=32648s)
+#### [`vitest.config.js`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=32701s) 
+#### [should not contact a backend => mock](https://www.youtube.com/watch?v=TtPXvEcE11E&t=32920s)
+`vi` from `vitest` is used for mocking: `const loadCart = vi.fn();`
+#### `screen` from `@testing-library/react` to check if the component is displayed correctly
+## [test user interaction](https://www.youtube.com/watch?v=TtPXvEcE11E&t=33519s)
+* [mock axios, i.e. mock the entire axios package](https://www.youtube.com/watch?v=TtPXvEcE11E&t=33793s&pp=0gcJCTAAlc8ueATH)
+* recommendation: [recreate each shared variables before each test](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34117s) by using [`beforeEach()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34150s)
+## [Mock implementation](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34272s)
+### [mocking implementation of `axios.get()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34465s)
+#### [ error analysis on test failure](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34749s)
+* cause of the error: [HomePage component is not inside Router in the test code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34785s)
+* solution: [place the HomePage around our Rounter in the test code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34796s) using [**`MemoryRouter`**](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34796s) (specifically for testing)
 
