@@ -118,4 +118,14 @@ Tips
 #### [ error analysis on test failure](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34749s)
 * cause of the error: [HomePage component is not inside Router in the test code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34785s)
 * solution: [place the HomePage around our Rounter in the test code](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34796s) using [**`MemoryRouter`**](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34796s) (specifically for testing)
-
+### [*synchronous* `screen.findAllByTestId()` to get html elements with sure result](https://www.youtube.com/watch?v=TtPXvEcE11E&t=34959s)
+### [intro to `within()`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=35067s&pp=0gcJCTAAlc8ueATH)
+* [`within()` lets us find things within a specific element](https://www.youtube.com/watch?v=TtPXvEcE11E&t=35112s&pp=0gcJCTAAlc8ueATH)
+# [Lesson 10: Deploy React to the internet, intro to aws](https://www.youtube.com/watch?v=TtPXvEcE11E&t=35431s)
+# [Lesson 11: React 19 update
+## [React Compiler](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38605s)
+* [Set up React Compiler](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38702s)
+* [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) Chrome extension
+### *TypeScript* with React
+* [removed: `propTypes`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38958s), [in favor of *TypeScript*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38985s)
+* [removed `defaultProps`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=38996s)
