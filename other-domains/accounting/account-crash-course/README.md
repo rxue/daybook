@@ -11,7 +11,7 @@ Each transaction results in either an increase or decrease in
 * equity
 
 ## [example 2: payment of electricity bill](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=257s)
-## [Rules of *debit* and *credit*](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=314s)
+## [Rules of *debit* and *credit*](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=315s)
 **Type**    | **Debit** | **Credit**
 ------------|-----------|-----------------
 Asset       | increase  | decease
@@ -75,3 +75,40 @@ Liability   | decrease  | increase
 
 ## [income and expenses](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2072s)
 ### [income](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2155s)
+money received or receivable from sales, services, or investment
+#### [examples](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2204s)
+* sales of goods
+* service income
+* dividend income
+* interest income
+* rental income
+* gain on sale of assets
+### [expenses](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2270s)
+* cost incurred in exchange for something
+* 
+* results in increase in liability
+#### [examples](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2315s)
+
+# [Practice Accounting Entries](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3238s)
+## example 1 : A business owner deposits $30,000 usd in the bank as equity
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Cash            | increase          | Y     |-          | -         |-          |-
+Owner's equity  | also increase!    |-      |-          | Y         |-          |-
+
+## example 2: A company buys furniture by paying $10,000 cash
+## [example 3](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3466s): A company buys furniture on credit for $10,000 cash
+[*accounting payable* is going out!](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3490s). There is *contractual obligation* => liability for the company
+accrual principle!
+
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Furniture       | increase          | Y     |-          | -         |-          |-
+Account payable | also increase!    |-      | Y         | -         |-          |-
+
+## [example 4](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3583s) The company *settles* amount payable for furniture
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Account payable | decrease          |-      | Y         | -         |-          |-
+Cash            | decrease          | Y     | -         | -         |-          |-
+
