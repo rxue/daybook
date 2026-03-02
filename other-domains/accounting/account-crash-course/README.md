@@ -186,5 +186,6 @@ Credit - Inventory      $2500
 ## [journal entries](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4224s&pp=0gcJCTAAlc8ueATH)
 Record all business transactions (double entry) and in chronological order
 ### [example in excel](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4264s)
+## [General Ledger](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4355s)
 
 
