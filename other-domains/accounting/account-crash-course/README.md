@@ -1,3 +1,7 @@
+## [example 1: purchase of buns](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=170s)
+
+#Key in accounting: [start thinking about each transaction in terms of the 2 consequences or results](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=230s)
+
 Each transaction results in either an increase or decrease in
 
 * assets
@@ -5,4 +9,69 @@ Each transaction results in either an increase or decrease in
 * expenses
 * income
 * equity
-## [example 2: payment of electricity](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=257s)
+
+## [example 2: payment of electricity bill](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=257s)
+## [Rules of *debit* and *credit*](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=314s)
+**Type**    | **Debit** | **Credit**
+------------|-----------|-----------------
+Asset       | increase  | decease
+Liability   | decrease  | increase
+* [liability, equity and income are opposite of asset and expense](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=372s)
+* [asset, liability, equity](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=408s) are part of *balance sheet*
+* income, expenses are part of the *income statement* = profit/loss statement
+## [Asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=544s)
+### [examples of asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=924s)
+### [Types of assets](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1132s)
+#### [current asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1154s)
+##### [examples of current asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1226s)
+* cash at hand/bank
+* inventory
+* account receivable
+* prepayment
+* investment
+##### [Question: in which financial statement do we find asset?](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1264s)
+###### [examples](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1272s)
+#### [non-current asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1330s)
+* expected to be utilized or converted to cash over more than 12 months
+##### [examples of non-current asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1345s)
+* building/office
+* computer hardware
+* furniture/equipment
+* vehicles
+* machinery
+* land or property
+* investments
+* computer software
+* goodwill
+* trademarks
+* patents
+* copyrights
+##### [Intangible asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1402s)
+* not physical by nature
+* can be created or acquired
+* create intangible assets have no value
+* can be definite or indefinite
+###### [example of intangile asset](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1427s)
+* computer software
+* goodwill
+* trademarks
+* patents
+* copyrights
+## [liability](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1486s&pp=0gcJCTAAlc8ueATH)
+### [example fo liability](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1528s)
+* [accounts payable](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1534s) - opposite of account receivable
+* [accrued salaries and wages](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1610s)
+* [taxes payable](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1657s)
+### [liabilities shown in balance sheet](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1723s)
+### [types of liabilities](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1735s)
+* [contingent liabilities](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1775s&pp=0gcJCTAAlc8ueATH)
+## [equity](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1856s)
+* [equity represents ownership](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1870s&pp=0gcJCTAAlc8ueATH)
+* equity = asset - liability
+* [equity represents ordinary shares](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1930s)
+* [equity represents accumulated earnings](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1940s) - every year that the company earns profit/loss, the owners or the equity holders own that
+
+[Balance sheet equation](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=1979s)
+
+## [income and expenses](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2072s)
+### [income](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2155s)
