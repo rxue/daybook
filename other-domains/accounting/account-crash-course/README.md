@@ -1,6 +1,14 @@
-## [example 1: purchase of buns](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=170s)
+# What is accounting
 
-#Key in accounting: [start thinking about each transaction in terms of the 2 consequences or results](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=230s)
+* every transaction will always have a *debit* entry and a *credit* entry
+
+## [example 1: purchase of buns](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=170s)
+* **non-accounting** entry - *Single Entry*
+ - cost of buns $300
+
+* [**accounting entry**](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=192s) - *Double Entry*
+
+# Key in accounting: [start thinking about each transaction in terms of the 2 consequences or results](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=230s)
 
 Each transaction results in either an increase or decrease in
 
@@ -111,4 +119,71 @@ Account         | Result            | Asset | Liability | equity    | income    
 ----------------|-------------------|-------|-----------|-----------|-----------|---------
 Account payable | decrease          |-      | Y         | -         |-          |-
 Cash            | decrease          | Y     | -         | -         |-          |-
+
+## [example 5](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3649s) The company pays $1,200 in rent for building
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Cash            | decrease          | Y     | -         | -         |-          | -
+Rent            | increase          | -     | -         | -         |-          | Y
+
+## [example 6](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3737s) The company receives $500 in dividend income from an investment
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Dividend income | increase          | -     | -         | -         | Y         | -
+Cash            | increase          | Y     | -         | -         | -         | -
+
+## [example 7](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3811s) The company buys for resale at the cost of $5,000 cash
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Inventory       | increase          | Y     | -         | -         | -         | -
+Cash            | decrease          | Y     | -         | -         | -         | -
+
+## Entry
+Debit - Inventory   $5,000
+Credit - Cash       $5,000
+
+## [example 8](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3921s) The company sells 5 bicycles for $4,000 cash
+
+*matching principle*
+cost per bicyle = $5000/10 = $500
+selling price per bicyle = $4000/5 = $800
+
+### First Entry
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Sales           | increase          | -     | -         | -         | Y         | -
+Cash            | increase          | Y     | -         | -         | -         | -
+
+my own wrong answer:
+
+Debit - Sales   (800-500)*5 = $1500
+Debit - Cash    $1500
+
+### correct answer:
+#### First entry:
+
+Credit - Sales  $4,000
+Debit - Cash    $4,000
+
+#### Second Entry
+Account         | Result            | Asset | Liability | equity    | income    | expense
+----------------|-------------------|-------|-----------|-----------|-----------|---------
+Inventory       | decrease          | Y     | -         | -         | -         | -
+Cost of (sales) | INcrease          |       | -         | -         | -         | Y
+
+wrong:
+
+Credit - Cost of Sale   500*5 = $2500
+Credit - Inventory            $2500
+
+correct:
+Debit - Cost of Sale    $2500 (500*5)
+Credit - Inventory      $2500
+### What happens to the remaining 5 bicycles
+
+# [Flow of Accounting Entries](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4178s)
+[journal entries => general ledger => trial balance => financial statement](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4205s)
+## [journal entries](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4224s&pp=0gcJCTAAlc8ueATH)
+Record all business transactions (double entry) and in chronological order
+
 
