@@ -189,5 +189,28 @@ Record all business transactions (double entry) and in chronological order
 ## [General Ledger](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4355s)
 summarize all transactions by Account type in respective General Ledger Accounts
 ### [example](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4370s)
+* [each account has an account number](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4374s)
 
+# [Financial Statement](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4650s)
+Financial statement includes:
+* balance sheet
+* income statement
+* cashflow statement
+* changes in equity
+* comprehensive income
+## [balance sheet](#)
+* [Retained Earnings](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4727s) - accumulated earnings at any given point
+
+## [income statement](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4764s)
+### [Important distinction between *balance sheet* and *income statement*](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4775s)
+* income statement is for a period
+* balance sheet is at a given point
+### [Operating expenses](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4921s) - *rent* in the example
+
+## [Cashflow Statement](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4958s)
+* similar with income statement in that it is for a period
+### [cashflow statement is divided into 3 sections](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=4982s)
+* Cash provided (used) by operations
+* Cash provided (used) by investing activities
+* Cash provided (used) by financing activities
 
