@@ -87,7 +87,7 @@ money received or receivable from sales, services, or investment
 #### [examples](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2204s)
 * sales of goods
 * service income
-* dividend income
+* [dividend income](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2252s)
 * interest income
 * rental income
 * gain on sale of assets
