@@ -84,9 +84,11 @@ Practical application of *Command completion*:
 aka. *binary search*
 #### Logging and/or Tracing
 # Chapter 4. Pragmatic Paranoia
-## Topic 27. Don't Outrun Your Headlights
+## Topic 27. Don't Outrun Your Headlights (20260305)
 [*REPL*](https://wiki.c2.com/?ReadEvalPrintLoop)
 > The more you have to predict what the future will look like, the more risk you incur that you'll be wrong. Instead of wasting effort designing your code for an uncertain future, you can always fall back on designing your code to be replaceable. Make it easy to throw out your code and replace it with something better suited.
+
+OWN COMMENT on 20260305: REPL was also typically mentioned in the Python documentation: https://peps.python.org/pep-0762/ 
 
 # Chapter 4. Pragmatic Paranoia
 ## Topic 24. Dead Programs Tell No Lies
