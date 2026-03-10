@@ -93,9 +93,30 @@ money received or receivable from sales, services, or investment
 * gain on sale of assets
 ### [expenses](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2270s)
 * cost incurred in exchange for something
-* 
-* results in increase in liability
+* By definition, it is the decrease in asset, e.g. dcrease in cash
+* it can result in increase in liability, e.g. *account payable*
+* decrease equity (decrease in profit)
+* [debit entry when increased, credit entry when decreased](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2298s)
 #### [examples](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2315s)
+* salaries and wages
+* training cost
+* meails
+* rent
+* cleaning
+* office suppliers
+* electricity
+* gas
+* water
+* repair
+* maintenance
+* **taxes**
+* interest paid
+* depreciation
+* insurance
+* leases
+* rental equipment
+* travel
+### [Example income statement from Nike](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=2350s)
 
 # [Practice Accounting Entries](https://www.youtube.com/watch?v=hTU6HE64Wd0&t=3238s)
 ## example 1 : A business owner deposits $30,000 usd in the bank as equity
