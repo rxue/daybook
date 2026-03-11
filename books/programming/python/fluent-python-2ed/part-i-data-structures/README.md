@@ -32,7 +32,9 @@ The use of `[]` in this book in based on the tools documentation in *Unix-like* 
 *Tuple* is an immutable version of `list`, so only update operations on `list` is not supported in *tuple*
 
 ## Unpacking Sequences and Iterables (20260311)
-*unpacking* > *parallel assignment*
+*unpacking*
+* *parallel assignment*
+* `*` use of when passing tuple to a function, which needs multiple arguments
 
 ## When a List is Not the Answer
 ### *Deques* and Other *Queues*
