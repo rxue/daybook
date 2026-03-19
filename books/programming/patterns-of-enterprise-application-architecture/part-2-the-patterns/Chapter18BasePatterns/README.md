@@ -4,6 +4,12 @@ Pattern       | On Which Side
 --------------|----------------
 *Gateway*     | Client
 
+## Registry
+Typical examples
+* *process-scoped* *Registry* : a list of all states in the United States, it can be loaded during process start up and never need changing
+* *thread-scoped* *Registry* : database connection
+
+
 ## Value Object
 > A small simple object, like money or a date range, whose equility isn't based on identity
 
