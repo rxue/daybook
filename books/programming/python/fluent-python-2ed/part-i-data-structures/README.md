@@ -18,6 +18,10 @@
 *Walrus Operator*
 
 ## Tuples Are Not Just Immutable Lists
+### Tuples as Records
+jargons
+`_` is called *dummy variable*
+
 ### Comparing *Tuple* and `list` Methods
  `list`       | `tuple`         | Description
 --------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
