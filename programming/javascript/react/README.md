@@ -4,6 +4,12 @@ Initialize a React app in the current directory, i.e. the name of the current di
 `npm vite@latest create .` and then go step-by-step based on the hint
 
 ## Tutorial: https://www.youtube.com/watch?v=TtPXvEcE11E
+### Lesson 1: React Basics, JSX (20260325)
+[React is an *external library*]
+
+#### [Why are there 2 external libraries in React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=998s)
+* [react.js](https://www.youtube.com/watch?v=TtPXvEcE11E&t=1020s&pp=0gcJCTAAlc8ueATH) - shared features that are used in websites and **mobile apps**
+* react-dom.js - features specific to websites
 ### [Lesson 3: State, Event Handlers, Create the Chatbot Features](https://www.youtube.com/watch?v=TtPXvEcE11E&t=5812s)
 #### [How to Get the Text in a Textbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8033s&pp=0gcJCTAAlc8ueATH)
 React Best Practice: Do not use DOM manually but use React features to get the text from a textbox
