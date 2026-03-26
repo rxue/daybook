@@ -19,7 +19,7 @@ Visualize the Components in App - *Component Tree*
 ## Lesson 4: CSS with React, Hook, Finish Chatbot Project
 ### [Flexbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10580s&pp=0gcJCTAAlc8ueATH)
 #### Flexbox features:
-* [flex grow](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10762s)
-
+* [`flex grow`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10762s)
+* [`justify-content`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=11340s)
 
 
