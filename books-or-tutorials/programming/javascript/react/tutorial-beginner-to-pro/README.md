@@ -1,0 +1,25 @@
+# Tutorial: https://www.youtube.com/watch?v=TtPXvEcE11E
+## Lesson 1: React Basics, JSX (20260325)
+[React is an *external library*]
+
+### [Why are there 2 external libraries in React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=998s)
+* [react.js](https://www.youtube.com/watch?v=TtPXvEcE11E&t=1020s&pp=0gcJCTAAlc8ueATH) - shared features that are used in websites and **mobile apps**
+* react-dom.js - features specific to websites
+## [Lesson 3: State, Event Handlers, Create the Chatbot Features](https://www.youtube.com/watch?v=TtPXvEcE11E&t=5812s)
+### [How to Get the Text in a Textbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8033s&pp=0gcJCTAAlc8ueATH)
+React Best Practice: Do not use DOM manually but use React features to get the text from a textbox
+
+#### [`event.target`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8194s) gives us the element that we're typing in
+* `event.target.value`
+#### [Save the Text](https://www.youtube.com/watch?v=TtPXvEcE11E&t=8264s&pp=0gcJCTAAlc8ueATH)
+use *State* to save the text. *State* = save data that changes over time
+
+Visualize the Components in App - *Component Tree*
+
+## Lesson 4: CSS with React, Hook, Finish Chatbot Project
+### [Flexbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10580s&pp=0gcJCTAAlc8ueATH)
+#### Flexbox features:
+* [flex grow](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10762s)
+
+
+
