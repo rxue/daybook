@@ -18,8 +18,17 @@ Visualize the Components in App - *Component Tree*
 
 ## Lesson 4: CSS with React, Hook, Finish Chatbot Project
 ### [Flexbox](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10580s&pp=0gcJCTAAlc8ueATH)
-#### Flexbox features:
+#### [3 steps to use *flexbox*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10627s)
+1. create container around elements - add `<div>` to the place needing the *flexbox*
+2. [add `display:flex;` to container](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10693s)
+3. use *flexbox* features 
+
+##### Flexbox features:
 * [`flex grow`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=10762s)
 * [`justify-content`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=11340s)
+
+[make `.chat-message-robot` a *flexbox*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=11540s) : When a block element (like `<div>`) is inside a *flexbox*, it no longer takes up the entire line
+
+* [`aligh-items`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=11827s) - controls how the elements are displayed vertically, it resolves the default behavior of elements inside a *flexbox* being streching vertically
 
 
