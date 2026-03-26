@@ -31,4 +31,7 @@ Visualize the Components in App - *Component Tree*
 
 * [`aligh-items`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=11827s) - controls how the elements are displayed vertically, it resolves the default behavior of elements inside a *flexbox* being streching vertically
 
+#### [Another use of *flexbox* in demo](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12400s)
+[by default, *flexbox* positions elements horizontally](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12459s)
 
+* [`flex-direction`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12472s) - value can be `row`/`column`
