@@ -54,4 +54,9 @@ In the demo, after send more message, we want to run some code to scroll chat hi
 ### [Proper React Setup](https://www.youtube.com/watch?v=TtPXvEcE11E&t=14342s)
 #### [`src`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=14758s) - source code directory
 Data inside `src/assets` is not downloadable
+## Lesson 9: [Automated Tests in React with Vitest](https://www.youtube.com/watch?v=TtPXvEcE11E&t=31810s)
+[2 most popular packages for automated testing](https://www.youtube.com/watch?v=TtPXvEcE11E&t=31837s):
+* `jest`
+* `vitest` (used in the demo)
+
 
