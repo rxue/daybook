@@ -28,6 +28,8 @@ Limit of `cut` when used to get delimited columns is that the delimiter has to b
 
 
 # Practical Tip: In case of Bash with debug option `-x`, use `bash -x <script>.sh` instead of `source <script>.sh` with `set` inside the script
+## Q: how to check whether my PC is ARM or x86_46
+`uname -m`
 ## Failure story on 20230131 when running `source <script>.sh` with MacBook's terminal
 # `find`
 ## find a file by name
