@@ -4,3 +4,5 @@
 ## [Testing framework](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=57504s)
 ### [Jasmine](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=57570s&pp=0gcJCTAAlc8ueATH)
 
+# [Lesson 17: Object-Oriented Programming](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=63390s)
+
