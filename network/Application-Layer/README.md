@@ -39,6 +39,9 @@ Name      | Value
 ----------|----------
 `Max-Age` | <number>
 
+### OWN SUMMARY
+response code starting with 4 or 5 means failed response
+
 ## Http *Method* Definitions
 ### [Http/1.0](https://www.rfc-editor.org/rfc/rfc1945#section-8) (20230909)
 * `GET`
