@@ -58,4 +58,10 @@ It doesn't do anything with *callback*
 * [we can't use `await` inside a normal function](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76973s)
 ## [Error handling](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77112s)
 ### [error handling in `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77330s)
+* [`Promise.catch`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77354s)
+#### [`try catch`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77498s)
+### [`throw`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77820s)
+### [the second way to create error in `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77961s)
+### [demo](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=78132s)
+
 
