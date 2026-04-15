@@ -41,5 +41,6 @@ when `xhr.send()`, it takes time to for the request to travel across the Interne
 ##### [`response.json()`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75794s)
 * `response.json()` is asynchronous and returns a `Promise`
 * `return reponse.json()` inside `then` block will make the `json()` to complete - synchronous
-## [Async `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76370s)
+## [`async` and `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76370s) - shortcut for `Promise`
+### [demo](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76409s)
 
