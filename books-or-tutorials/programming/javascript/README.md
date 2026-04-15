@@ -34,4 +34,12 @@ when `xhr.send()`, it takes time to for the request to travel across the Interne
 [`Promise` let us flatten our code](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=74380s)
 ### [summary: use `Promise` instead of callback](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75040s)
 ### [2 more features of `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75068s)
+#### [we can run multiple `Promise`s at the same time](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75134s) - [`Promise.all()`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75165s)
+### [`fetch`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75506s) - typical use case of `Promise`
+[How to get response](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75652s) - `.then()` which returns `Promise`
+#### `response`
+##### [`response.json()`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=75794s)
+* `response.json()` is asynchronous and returns a `Promise`
+* `return reponse.json()` inside `then` block will make the `json()` to complete - synchronous
+## [Async `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76370s)
 
