@@ -57,5 +57,5 @@ It doesn't do anything with *callback*
 ### [Details of `async` `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76950s)
 * [we can't use `await` inside a normal function](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76973s)
 ## [Error handling](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77112s)
-
+### [error handling in `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=77330s)
 
