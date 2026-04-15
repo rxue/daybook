@@ -43,4 +43,16 @@ when `xhr.send()`, it takes time to for the request to travel across the Interne
 * `return reponse.json()` inside `then` block will make the `json()` to complete - synchronous
 ## [`async` and `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76370s) - shortcut for `Promise`
 ### [demo](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76409s)
+* [`async` function returns `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76480s)
+
+[equivalent code comparison](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76528s) between `async` and using `Promise` explicitly
+
+### [what is the point of using `async`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76590s) - use it with `await`
+* `await` lets us wait for a `Promise` to finish before going to the next line
+* [`await` lets us write asynchronous code like normal code](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76669s)
+
+#### [demo](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76772s)
+#### [RULE: async await can only be used with `Promise`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76806s)
+It doesn't do anything with *callback*
+### [Details of `async` `await`](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=76950s)
 
