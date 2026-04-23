@@ -1,6 +1,7 @@
 # Tutorial: https://www.youtube.com/watch?v=TtPXvEcE11E
 ## Lesson 1: React Basics, JSX (20260325)
-[React is an *external library*]
+### [*External library*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=837s)
+React is an *external library*
 
 ### [Why are there 2 external libraries in React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=998s)
 * [react.js](https://www.youtube.com/watch?v=TtPXvEcE11E&t=1020s&pp=0gcJCTAAlc8ueATH) - shared features that are used in websites and **mobile apps**
@@ -48,6 +49,7 @@ In the demo, after send more message, we want to run some code to scroll chat hi
 * *dependency array* controls when `useEffect` runs
 * best practice: give `useEffect` a dependency array to avoid running too often
 ##### use case of [`useRef`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=13202s)
+variable intialized by `useRef` is usually needed to be used in combination with the `useEffect`
 
 ## Lesson 5: Proper React Setup
 [`npm`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=14223s) - node package manager, where package = external library
