@@ -17,6 +17,12 @@
 
 *Walrus Operator*
 
+### Generator Expressions
+* typically used in initializing *tuples*, *arrays* and other types of *sequences*
+* saves memory
+
+> Genexps use the same syntax as listcomps, but are enclosed in parentheses rather than bracket
+
 ## Tuples Are Not Just Immutable Lists
 ### Tuples as Records
 jargons
