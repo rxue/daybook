@@ -1,3 +1,6 @@
+# Chapter 1. Data Warehousing, Business Intelligence, and Dimensional Modeling Primer
+## Dimensional Modeling Introduction
+
 # Chapter 2. Kimball Dimensional Modeling Technique Overview
 ## Basic Demension Table Techniques
 ### Natural, Durable, and Supernatural Keys
