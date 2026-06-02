@@ -10,9 +10,12 @@ This sentence above indicate that `None` is also a type in addition to being a v
 
 ### Generic Collections
 > Most Python collections are heterogeneous. For example, you can put any mixtures of different types in a `list`
-## parameterized Generics and `TypeVar`
-### Restricted `TypeVar`
-### Bounded `TypeVar`
-### The `AnyStr` predefined type variable
-## [Static protocols](https://peps.python.org/pep-0544/)
+### parameterized Generics and `TypeVar`
+#### Restricted `TypeVar`
+#### Bounded `TypeVar`
+#### The `AnyStr` predefined type variable
+### [Static protocols](https://peps.python.org/pep-0544/)
+## Annotating [*Positional-Only*](https://docs.python.org/3/tutorial/controlflow.html#positional-only-parameters) and *variadic* Parameters
+
+
 
