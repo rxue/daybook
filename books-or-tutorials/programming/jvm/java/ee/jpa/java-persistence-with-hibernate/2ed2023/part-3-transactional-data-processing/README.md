@@ -125,7 +125,9 @@ They are legacy from JPA 1.0 and not preferred for new applications
 in `@OneToMany` association, the *default* value of its `fetch` attribute is `FetchType.LAZY`. This indicates that `FetchType.EAGER` is not recommended in practice
  
 ### 12.2. Selecting a fetch strategy
-#### 12.2.1. The *n+1 selects* problem
+#### 12.2.1. The *n+1 selects* problem (#interview)
+NOTE that *n+1 selects* problem is in the domain of JPA when a *lazy loaded* entity needs to access to its field, which is also an entity. In this case the access to the field causes a new `select` statement. The worse case is there are many *lazy loaded* entities, each of which causes a separate select, which is a performance issue
+
 #### 12.2.2. The *Cartesian product* problem
 demo code for Entity causing *cartesian product* : [`org.jpwh.model.fetching.cartesianproduct.Item`](http://jpwh.org/examples/jpwh2/jpwh-2e-examples-20151103/model/src/main/java/org/jpwh/model/fetching/cartesianproduct/Item.java)
 
