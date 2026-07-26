@@ -42,4 +42,8 @@ IMO, till JDK 17, since the `Set.of`, `List.of` is way more readable than *doubl
 Caution:
 
 > If you override a method from a superclass, the *checked exceptions* that the *subclass method* declares cannot be more general than those of the *superclass* method. (It is OK to throw more specific exceptions, or not to throw any exceptions in the subclass method.) In particular, if the superclass method throws no checked exception at all, neither can the subclass. 
+# Chapter 9: Collections
+## 9.5 Copies and Views
+### 9.5.2 Unmodifiable Copies and Views
+> The unmodifiable view does not make the collection itself *immutable*. You can still modify the collection through its original reference. And you can call mutator methods on elements of the collection.
 
