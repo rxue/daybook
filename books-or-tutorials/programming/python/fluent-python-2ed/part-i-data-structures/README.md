@@ -97,7 +97,9 @@ third-party type checker: e.g. `mypy`
 # Chapter 5. Data Class Builders
 ## *Type Hints* 101
 ### No Runtime Effect
+*Mypy* introduced
 
+OWN COMMENT: nowadays, there is a new tool `pyright`, which is kinda replacement of `Mypy`. ChatGPT told `pyright` is way after than `Mypy`. Moreover, `pyright` is a built-in *External tool* in the *PyCharm* IDE
 
 # Chapter 6: Object References, Mutability, and Recycling
 ## Further Reading
