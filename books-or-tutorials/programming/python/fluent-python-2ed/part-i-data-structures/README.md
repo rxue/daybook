@@ -84,6 +84,10 @@ use of `''.join`
 
 `@dataclasses.dataclass` since Python 3.7
 
+## Overview of Data Class Builders
+### Main Features
+#### Mutable Instances
+> `collections.namedtuple` and `typing.NamedTuple` build `tuple` subclasses, therefore the instances are *immutable*.
 ## Type Hints 101
 ### No Runtime Effect
 third-party type checker: e.g. `mypy`
@@ -92,16 +96,6 @@ third-party type checker: e.g. `mypy`
 **Acceptable type hints**
 
 * `typing.Optional`, for example, `Optional[str]` - a field/parameter can be `str` or `None`
-
-
-# Chapter 5. Data Class Builders
-## Overview of Data Class Builders
-### Main Features
-#### Mutable Instances
-> `collections.namedtuple` and `typing.NamedTuple` build `tuple` subclasses, therefore the instances are *immutable*.
-## *Type Hints* 101
-### No Runtime Effect
-*Mypy* introduced
 
 OWN COMMENT: nowadays, there is a new tool `pyright`, which is kinda replacement of `Mypy`. ChatGPT told `pyright` is way after than `Mypy`. Moreover, `pyright` is a built-in *External tool* in the *PyCharm* IDE
 
