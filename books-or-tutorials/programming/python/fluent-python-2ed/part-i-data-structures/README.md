@@ -95,6 +95,10 @@ third-party type checker: e.g. `mypy`
 
 
 # Chapter 5. Data Class Builders
+## Overview of Data Class Builders
+### Main Features
+#### Mutable Instances
+> `collections.namedtuple` and `typing.NamedTuple` build `tuple` subclasses, therefore the instances are *immutable*.
 ## *Type Hints* 101
 ### No Runtime Effect
 *Mypy* introduced
