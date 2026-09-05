@@ -98,6 +98,10 @@ third-party type checker: e.g. `mypy`
 * `typing.Optional`, for example, `Optional[str]` - a field/parameter can be `str` or `None`
 
 OWN COMMENT: nowadays, there is a new tool `pyright`, which is kinda replacement of `Mypy`. ChatGPT told `pyright` is way after than `Mypy`. Moreover, `pyright` is a built-in *External tool* in the *PyCharm* IDE
+## More about `@dataclass`
+### Field Options
+OWN COMMENT: after you declare a field with a default value, all remaining fields must also have default values. This rule is for any Python class
+
 
 # Chapter 6: Object References, Mutability, and Recycling
 ## Further Reading
