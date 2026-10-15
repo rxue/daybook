@@ -2,6 +2,18 @@
 ## Item 1: Consider static factory methods instead of constructors
 > A *service provider framework* is a system in which providers implement a service, and the system makes implementations available to clients, decoupling the clients from implementations.
 
+# Chapter 2 Creating and Destroying Objects
+## Item 7: Eliminate obselete object references
+keywords:
+* *memory leak*
+* *obselete references*
+* *unintentional object retentions*
+* `OutOfMemoryError`
+* *heap profiler*
+
+**OWN COMMENT**:
+
+
 # Chapter 3 Methods Common to All Objects
 ## Item 10: Obey the general contract when overriding equals
 When is it appropriate to *override* `equals` ? *value classes* such as `Integer`, `String`
