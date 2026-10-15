@@ -5,7 +5,7 @@
 # Chapter 2 Creating and Destroying Objects
 ## Item 7: Eliminate obselete object references
 keywords:
-* *memory leak*
+* *memory leak* - reduced performance due to increased *garbage collector activity* or increase *memory footprint*
 * *obselete references*
 * *unintentional object retentions*
 * `OutOfMemoryError`
