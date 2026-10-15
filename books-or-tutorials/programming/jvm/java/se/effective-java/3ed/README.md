@@ -12,7 +12,7 @@ keywords:
 * *heap profiler*
 
 **OWN COMMENT**:
-
+*Eclipse Memory Analyzer (MAT)* is a free tool for (heap) memory analyzer. It can generate *Leak Suspect* reports
 
 # Chapter 3 Methods Common to All Objects
 ## Item 10: Obey the general contract when overriding equals
