@@ -20,4 +20,8 @@ e.g. informal UML
 
 ## *Scratch Refactoring*
 
-  
+# Chapter 20. This Class Is Too Big and I don't Want It to Get Any Bigger
+**Single-Responsibility Principle (SRP)** (20261020)
+
+**OWN TAKEAWAY**
+Don't be overkill at real work coding. The example given by the author shows that in the legacy code base, figuring out the responsibilities of a big class is good, but do not be idealistic and dream of refactoring within one day. 
