@@ -30,6 +30,13 @@ Recall from Chapter 4,
 
 > Record automatically define an `equals``method that compares the fields. Two record instances are equals when the corresponding field values are equal
 
+## 5.3 Generic Array Lists
+### 5.3.1 Declaring Array Lists (20261029)
+> The array list manages an internal array of object references. Eventually that array will run out of space. This is where array lists work their magic: If you call `add` and the internal array is full, the array list automatically creates a bigger array and copies all the objects from the smaller to the bigger array.
+
+The above is the essence of array's expansion mechanism
+
+
 # Chapter 6: Interfaces, Lambda Expressions, and Inner Classes
 ## Chapter 6.3. Inner Classes
 ### 6.3.6. Anonymous Inner Classes
