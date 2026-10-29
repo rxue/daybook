@@ -34,8 +34,11 @@ Recall from Chapter 4,
 ### 5.3.1 Declaring Array Lists (20261029)
 > The array list manages an internal array of object references. Eventually that array will run out of space. This is where array lists work their magic: If you call `add` and the internal array is full, the array list automatically creates a bigger array and copies all the objects from the smaller to the bigger array.
 
+**OWN COMMENT**
+
 The above is the essence of array's expansion mechanism
 
+Based on the source code of [`ArrayList`](https://github.com/openjdk/jdk21/blob/master/src/java.base/share/classes/java/util/ArrayList.java), typically in `ArrayList#grow` method the expansion of the *array* is done with `Arrays.copyOf()`, which is a *shallow copy*
 
 # Chapter 6: Interfaces, Lambda Expressions, and Inner Classes
 ## Chapter 6.3. Inner Classes
