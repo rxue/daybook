@@ -90,8 +90,6 @@ default `AccessType` is `FIELD` in `@Access` (how instance is accessed). `Access
 #### 5.1.5. Generated and default property values (Hibernate features)
 #### 5.1.6. *Temporal* properties
 `@Temporal` - **accuracy** of SQL data type
-#### 5.1.7. Mapping annotations
-design tip: `EnumType.STRING` is a better choice
 ### 5.2. Mapping embeddable components
 #### 5.2.1. Database schema
 *value type* can't be shared => *value type* has no identity. 
