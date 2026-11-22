@@ -37,20 +37,6 @@ Visualize the Components in App - *Component Tree*
 
 * [`flex-direction`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12472s) - value can be `row`/`column`
 
-### [demo: auto-scroll](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12876s)
-#### [*Hooks* - a key feature of React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12916s)
-##### [`useState`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12935s)
-##### [`useEffect`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=12955s) - implementing auto-scoll in the demo
-`useEffect` let use run some code after the component is **created** or **updated**
-
-In the demo, after send more message, we want to run some code to scroll chat history to the bottom, this is a perfect use case of `useEffect`
-###### [the second parameter in `useEffect`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=13017s) - *dependency array*
-
-* *dependency array* controls when `useEffect` runs
-* best practice: give `useEffect` a dependency array to avoid running too often
-##### use case of [`useRef`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=13202s)
-variable intialized by `useRef` is usually needed to be used in combination with the `useEffect`
-
 ## Lesson 5: Proper React Setup
 [`npm`](https://www.youtube.com/watch?v=TtPXvEcE11E&t=14223s) - node package manager, where package = external library
 ### [Proper React Setup](https://www.youtube.com/watch?v=TtPXvEcE11E&t=14342s)
