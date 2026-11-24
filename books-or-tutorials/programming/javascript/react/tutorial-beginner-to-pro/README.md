@@ -2,6 +2,7 @@
 ## Lesson 1: React Basics, JSX (20260325)
 ### [*External library*](https://www.youtube.com/watch?v=TtPXvEcE11E&t=837s)
 React is an *external library*
+### *Babel* : a compiler to convert React code, i.e. .jsx, to normal JavaScript 20261124
 
 ### [Why are there 2 external libraries in React](https://www.youtube.com/watch?v=TtPXvEcE11E&t=998s)
 * [react.js](https://www.youtube.com/watch?v=TtPXvEcE11E&t=1020s&pp=0gcJCTAAlc8ueATH) - shared features that are used in websites and **mobile apps**
